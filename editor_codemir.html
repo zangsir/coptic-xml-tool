@@ -24,11 +24,7 @@ body{padding:10pt;}
 </head>
 <h1>Coptic Project:XML Transcription Editor</h1>
 <hr>
-<table style="background:#eee;padding:5pt;">
-<tr><td>Document Name: </td><td>**docname** </td></tr>
-<tr><td>Assigned to:</td><td> **assigned** </td></tr>
-<tr><td>Status:</td><td> **status** </td></tr>
-</table>
+
 <hr>
 <div>
 
@@ -48,8 +44,16 @@ body{padding:10pt;}
 
 <article>
 <form id="codemir" method="post" action="editor.py">
-
 <br><h2>Editor | <a href="landing.py">back to document list</a> </h2> 
+
+<table style="background:#eee;padding:5pt;">
+<tr><td>Document Name: </td><td>**docname** </td><td>**editdocname**</td></tr>
+<tr><td>File Name: </td><td>**filename** </td><td>**editfilename**</td></tr>
+<tr><td>Assigned to:</td><td> **assigned** </td><td>**editassignee**</td></tr>
+<tr><td>Status:</td><td> **status** </td><td>**editstatus**</td></tr>
+</table>
+
+
 <textarea id="code" name="code">**content**
 </textarea>
 <input type="submit" value="Save" />
