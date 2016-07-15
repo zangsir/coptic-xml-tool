@@ -22,7 +22,7 @@ def load_landing():
     table="""<table>
       <tr>
         <th>id</th>
-        <th>name</th>
+        <th>doc name</th>
         <th>status</th>
         <th>assigned</th>
         <th>filename</th>

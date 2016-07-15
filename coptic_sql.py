@@ -30,6 +30,7 @@ def setup_db():
     
 
 def create_document(name,status,assigned,filename,content):
+    content=content.replace('"',"'")
     dbpath = os.path.dirname(os.path.realpath(__file__)) + os.sep +".."+os.sep+"coptic.db"
     conn = sqlite3.connect(dbpath)
     cur = conn.cursor()
