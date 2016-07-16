@@ -11,12 +11,29 @@ from modules.pathutils import *
 import urllib
 from coptic_sql import *
 
+
 def cell(text):
     return "\n    <td>" + str(text) + "</td>"
 
-def load_landing():
-    docs_list=generic_query("SELECT * FROM coptic_docs","")
-    max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
+def get_max_id():
+    #get current max of existing records in the db
+    current_max=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs",())[0][0]
+    #set the max key for auto_increment of id to that value
+    generic_query("UPDATE sqlite_sequence SET seq=? WHERE name=?",(current_max,"coptic_docs"))
+    return current_max
+
+
+
+def load_landing(theform):
+    if theform.getvalue('deletedoc'):
+        docid=theform.getvalue('id')
+        delete_doc(docid)
+
+    #docs_list=generic_query("SELECT * FROM coptic_docs","")
+    docs_list=generic_query("SELECT coptic_docs.id,name,status,username,filename FROM coptic_docs JOIN users ON coptic_docs.assignee_users_id=users.id",())
+
+    max_id=get_max_id()
+    
     #for each doc in the doc list, just display doc[:-1], since last col is content
 
     table="""<table>
@@ -26,23 +43,29 @@ def load_landing():
         <th>status</th>
         <th>assigned</th>
         <th>filename</th>
-        <th>action</th>
+        <th>editing</th>
+        <th>deletion</th>
       </tr>"""
 
     for doc in docs_list:
         row="\n <tr>"
-        for item in doc[:-1]:
+        for item in doc:
             
             row+=cell(item)
+        id=str(doc[0])
+        #edit document
+        button_edit="""<form action=editor.py method="post">"""
+        id_code="""<input type="hidden" name="id"  value="""+id+">"
+        button_edit+=id_code
+        button_edit+="""<input type="submit" value="EDIT DOCUMENT"></form>    """
 
-        button="""<form action=editor.py>"""
-        button+="""<input type="hidden" name="id" value="""+str(doc[0])+">"
+        #delete document
+        button_delete="""<form action=landing.py method="post">"""
+        button_delete+=id_code
+        button_delete+="""<input type='submit' name='deletedoc'  value='DELETE DOCUMENT'></form>"""
 
-
-        button+="""<input type="submit" value="EDIT DOCUMENT">
-        </form>
-    """
-        row+=cell(button)
+        row+=cell(button_edit)
+        row+=cell(button_delete)
         row+="\n </tr>"
         table+=row
         
@@ -83,15 +106,15 @@ def load_landing():
 
     create_new = """\n\n\n<form action='editor.py'><input type="hidden" name="id" value="""+str(max_id+1)+">"  
     create_new+=""" <input type="hidden" name="newdoc" value='true'>    """
-    #create_new+=""" <input type="hidden" name="maxid" value= """+str(max_id)+">"
-
     create_new+= """<input type="submit" value="create new document"> </form>"""
+
+
 
     page+=table
     page+="<br><br>"
     page+=create_new
     page+='\n</body>\n</html>'
-
+    
     return page
 
 
@@ -105,7 +128,9 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_landing()
+    print load_landing(theform)
+
+
 
 
 open_main_server()

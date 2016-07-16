@@ -33,13 +33,7 @@ def setup_db():
     
 
 def create_document(name,status,assigned_id,filename,content):
-    content=content.replace('"',"'")
-    dbpath = os.path.dirname(os.path.realpath(__file__)) + os.sep +".."+os.sep+"coptic.db"
-    conn = sqlite3.connect(dbpath)
-    cur = conn.cursor()
-    cur.execute('''INSERT INTO {tn}(name,status,assignee_users_id,filename,content) VALUES({name},{status},{assigned},{filename},{content})'''.format(tn="coptic_docs",name='"'+name+'"',status='"'+status+'"',assigned='"'+assigned_id+'"',filename='"'+filename+'"',content='"'+content+'"'))
-    conn.commit()
-    conn.close()
+    generic_query("INSERT INTO coptic_docs(name,status,assignee_users_id,filename,content) VALUES(?,?,?,?,?)", (name,status,assigned_id,filename,content))
 
 
 def generic_query(sql,params):
@@ -56,17 +50,13 @@ def generic_query(sql,params):
         return rows
 
 
-
-
-
-
 def save_changes(id,content):
     """save change from the editor"""
     generic_query("UPDATE coptic_docs SET content=? WHERE id=?",(content,id))
 
 
-def update_assignee(id,assignee):
-    generic_query("UPDATE coptic_docs SET assigned=? WHERE id=?",(assignee,id))
+def update_assignee(doc_id,user_id):
+    generic_query("UPDATE coptic_docs SET assignee_users_id=? WHERE id=?",(user_id,doc_id))
 
 def update_status(id,status):
     generic_query("UPDATE coptic_docs SET status=? WHERE id=?",(status,id))
@@ -80,13 +70,10 @@ def update_filename(id,filename):
 
 
 def create_user(username):
-    dbpath = os.path.dirname(os.path.realpath(__file__)) + os.sep +".."+os.sep+"coptic.db"
-    conn = sqlite3.connect(dbpath)
-    cur = conn.cursor()
-    cur.execute('''INSERT INTO {tn}(username) VALUES({username})'''.format(tn="users",username='"'+username+'"'))
-    conn.commit()
-    conn.close()
+    generic_query("INSERT INTO users(username) VALUES(?)",(username,))
 
+def delete_doc(id):
+    generic_query("DELETE FROM coptic_docs WHERE id=?",(id,))
 
 
 
