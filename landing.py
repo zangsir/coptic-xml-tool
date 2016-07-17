@@ -24,6 +24,7 @@ def get_max_id():
 
 
 
+
 def load_landing(theform):
     if theform.getvalue('deletedoc'):
         docid=theform.getvalue('id')
@@ -104,15 +105,14 @@ def load_landing(theform):
 
     """
 
-    create_new = """\n\n\n<form action='editor.py'><input type="hidden" name="id" value="""+str(max_id+1)+">"  
-    create_new+=""" <input type="hidden" name="newdoc" value='true'>    """
-    create_new+= """<input type="submit" value="create new document"> </form>"""
-
+    create_new_doc = """\n\n\n<form action='editor.py'><input type="hidden" name="id" value="""+str(max_id+1)+">"  
+    create_new_doc+=""" <input type="hidden" name="newdoc" value='true'>    """
+    create_new_doc+= """<input type="submit" value="create new document"> </form>"""
 
 
     page+=table
     page+="<br><br>"
-    page+=create_new
+    page+=create_new_doc
     page+='\n</body>\n</html>'
     
     return page
