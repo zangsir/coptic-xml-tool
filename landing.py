@@ -9,7 +9,7 @@ from modules.logintools import login
 from modules.configobj import ConfigObj
 from modules.pathutils import *
 import urllib
-from coptic_sql import *
+from modules.coptic_sql import *
 
 
 def cell(text):

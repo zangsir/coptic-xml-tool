@@ -27,10 +27,10 @@ from urlpath import *
 from odict import *
 from dateutils import *
 
-from rstweb_classes import *
-from rstweb_sql import *
-from rstweb_reader import *
-
+#from rstweb_classes import *
+#from rstweb_sql import *
+#from rstweb_reader import *
+from coptic_sql import *
 
 __version__ = '1.0.0'
 

@@ -6,7 +6,6 @@ Data access functions to read from and write to the SQLite backend.
 """
 
 import sqlite3
-from modules.rstweb_reader import *
 import codecs
 import os
 import re
