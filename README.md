@@ -7,10 +7,13 @@ To configure on server or localhost, simply download the files, and make sure
 (1) you have added handlers for python for the directory in the main Apache config file, like:
 
 <code>
-<Directory "/Applications/MAMP/htdocs/coptic-xml-tool-repo">
+\<Directory "/Applications/MAMP/htdocs/coptic-xml-tool-repo"\>
+    
     Options +ExecCGI
+    
     AddHandler cgi-script .py
-</Directory>
+
+\</Directory\>
 </code>
 
 (2) you have given executable permission the python scripts.
