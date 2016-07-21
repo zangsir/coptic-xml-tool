@@ -25,7 +25,6 @@ body{padding:10pt;}
 <h1>Coptic Project:XML Transcription Editor</h1>
 <hr>
 
-<hr>
 <div>
 
 
@@ -56,7 +55,7 @@ body{padding:10pt;}
 
 <textarea id="code" name="code">**content**
 </textarea>
-<input type="submit" value="Save" />
+<input type="submit" value="Save Text" />
 <input type="hidden" id="zangsir" name="id" value=""/>
 </form>
 
@@ -71,31 +70,74 @@ body{padding:10pt;}
       };
 
       var tags = {
-        "!top": ["top"],
+        "!top": ["TEI"],
         "!attrs": {
-          id: null,
-          class: ["A", "B", "C"]
         },
-        top: {
-          attrs: {
-            lang: ["en", "de", "fr", "nl"],
-            freeform: null
+        TEI: {
+          children:['add','figure','gap','note','p','pb','supplied']
+        },
+        cb: {
+          attrs: {n:null
           },
-          children: ["animal", "plant"]
+          children: ["lb"]
         },
-        animal: {
-          attrs: {
-            name: null,
-            isduck: ["yes", "no"]
+
+        figure: {
+          attrs: {rend:null
           },
-          children: ["wings", "feet", "body", "head", "tail"]
+          children: []
         },
-        plant: {
-          attrs: {name: null},
-          children: ["leaves", "stem", "flowers"]
+
+        gap: {
+          attrs: {
+            extent:null,
+            quantity:null,
+            reason:null,
+            unit:null
+
+          },
+          children: []
+          
         },
-        wings: dummy, feet: dummy, body: dummy, head: dummy, tail: dummy,
-        leaves: dummy, stem: dummy, flowers: dummy
+
+        hi: {
+          attrs: {rend:null
+          }
+        },
+
+        lb: {
+          attrs: {n:null
+          },
+          children: []
+        },
+
+        note: {
+          attrs: {note:null
+          },
+          children: []
+        },
+
+        p: {
+          attrs: {n:null
+          },
+          children: ["lb",'hi']
+        },
+        
+        pb: {
+          attrs: {"xml:id":null
+          },
+          children: ["cb",'lb']
+        },
+
+        supplied: {
+          attrs: {evidence:null,
+            reason:null
+          },
+          children: []
+        },
+
+
+
       };
 
       function completeAfter(cm, pred) {
