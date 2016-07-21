@@ -9,7 +9,7 @@ from modules.configobj import ConfigObj
 from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
-
+import zlib
 
 
 def perform_action(text_content):
@@ -114,6 +114,7 @@ def load_page(theform):
     #codemirror sends the form with its code content in it before 'save' so we just display it again
     if theform.getvalue('code'):
         text_content = theform.getvalue('code')
+        text_content = unicode(text_content.decode("utf8"))
         #max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
         if int(doc_id)>int(max_id):
             perform_action('create doc existing')
@@ -167,7 +168,6 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_page(theform)
-
+    print load_page(theform).encode("utf8")
 
 open_main_server()
