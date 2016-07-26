@@ -9,7 +9,10 @@ from modules.configobj import ConfigObj
 from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
-import zlib
+
+
+def cell(text):
+    return "\n    <td>" + str(text) + "</td>"
 
 
 def perform_action(text_content):
@@ -17,6 +20,21 @@ def perform_action(text_content):
     f.write('\n')
     f.write(text_content)
     f.close()
+
+
+def print_meta(doc_id):
+    meta = generic_query("SELECT key,value FROM metadata WHERE docid=?",(doc_id,))
+    table="""<table>"""
+    for item in meta:
+        #each item appears in one row of the table
+        row="\n <tr>"
+        for i in item:
+            row+=cell(i)
+        row+="\n</tr>"
+        table+=row
+    table+="\n</table>"
+    return table
+
 
 
 def load_page(theform):
@@ -114,7 +132,9 @@ def load_page(theform):
     #codemirror sends the form with its code content in it before 'save' so we just display it again
     if theform.getvalue('code'):
         text_content = theform.getvalue('code')
-        text_content = unicode(text_content.decode("utf8"))
+        perform_action("<start content>")
+        perform_action(text_content)
+        perform_action('<end content>')
         #max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
         if int(doc_id)>int(max_id):
             perform_action('create doc existing')
@@ -125,21 +145,25 @@ def load_page(theform):
 
 
 
-
-    edit_status="in progress"
-    edit_assignee="in progress"
-    
+    #editing options
+    #docname
     edit_docname = """<input type='text' name='edit_docname' value=''> <input type='submit' value='change'>"""
-
+    #filename
     edit_filename = """<input type='text' name='edit_filename' value=''> <input type='submit' value='change'>"""
+    #status
     edit_status="""<select name="edit_status">  <option value="editing">editing</option>
     <option value='review'> review </option></select>    <input type='submit' value='change'>"""
+    #assignee
     users_list=generic_query("SELECT * FROM users","")
     edit_assignee="""<select name="edit_assignee">"""
     for user in users_list:
         user_id,user_name=user[0],user[1]
         edit_assignee+="""<option value='""" + str(user_id) + "'>" + user_name + """</option>"""
     edit_assignee+="</select><input type='submit' value='change'>"
+
+    #meta data
+    metadata=print_meta(doc_id)
+
 
 
     page= "Content-type:text/html\r\n\r\n"
@@ -153,6 +177,7 @@ def load_page(theform):
     page=page.replace("**editstatus**",edit_status)
     page=page.replace("**editfilename**",edit_filename)
     page=page.replace("**editassignee**",edit_assignee)
+    page=page.replace("**metadata**",metadata)
 
     page=page.replace("**js**",js)
 
@@ -168,6 +193,7 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_page(theform).encode("utf8")
+    print load_page(theform)
+
 
 open_main_server()
