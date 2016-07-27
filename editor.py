@@ -23,14 +23,28 @@ def perform_action(text_content):
 
 
 def print_meta(doc_id):
-    meta = generic_query("SELECT key,value FROM metadata WHERE docid=?",(doc_id,))
+    meta = generic_query("SELECT * FROM metadata WHERE docid=?",(doc_id,))
+    #docid,metaid,key,value - four cols
     table="""<table>"""
     for item in meta:
         #each item appears in one row of the table
         row="\n <tr>"
-        for i in item:
+        metaid=str(item[1])
+        id=str(doc_id)
+        for i in item[2:]:
             row+=cell(i)
-        row+="\n</tr>"
+
+    #delete meta
+        metaid_code="""<button type="hidden" name="metaid"  value="""+metaid+"> delete </button>"
+        #id_code="""<input type="hidden" name="id"  value="""+id+">"
+        perform_action(metaid_code)
+
+        button_delete=""
+        button_delete+=metaid_code
+        #button_delete+=id_code
+        #button_delete+="""<input type='submit' name='deletemeta'  value='DELETE'>"""
+        row+=cell(button_delete)
+        row+="\n </tr>"
         table+=row
     table+="\n</table>"
     return table
@@ -162,6 +176,17 @@ def load_page(theform):
     edit_assignee+="</select><input type='submit' value='change'>"
 
     #meta data
+    if theform.getvalue('metakey'):
+        metakey=theform.getvalue('metakey')
+        metavalue=theform.getvalue('metavalue')
+        perform_action(metakey)
+        perform_action(metavalue)
+        save_meta(doc_id,metakey,metavalue)
+    if theform.getvalue('metaid'):
+        perform_action('========delete meta')
+        metaid=theform.getvalue('metaid')
+        perform_action(metaid)
+        delete_meta(metaid)
     metadata=print_meta(doc_id)
 
 

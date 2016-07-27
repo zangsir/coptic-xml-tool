@@ -21,6 +21,9 @@ td, th {
 body{padding:10pt;}
 
 </style>
+
+
+
 </head>
 <h1>Coptic Project:XML Transcription Editor</h1>
 <hr>
@@ -42,7 +45,9 @@ body{padding:10pt;}
 
 
 <article>
-<form id="codemir" method="post" action="editor.py">
+
+
+<form name="hiddenForm" id="codemir" method="post" action="editor.py">
 <br><h2>Editor | <a href="landing.py">back to document list</a> </h2> 
 
 <table style="background:#eee;padding:5pt;">
@@ -56,6 +61,28 @@ body{padding:10pt;}
 <textarea id="code" name="code">**content**</textarea>
 <input type="submit" value="Save Text" />
 <input type="hidden" id="zangsir" name="id" value=""/>
+
+<h3>meta data</h3>
+**metadata**
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+myPopup = '';
+
+function openPopup(url) {
+    myPopup = window.open(url,'popupWindow','width=640,height=480');
+    if (!myPopup.opener)
+         myPopup.opener = self;
+}
+
+//--></SCRIPT>
+
+
+<INPUT TYPE="BUTTON" VALUE="add meta" onClick="openPopup('popupPage.html')">
+
+
+<INPUT TYPE="HIDDEN" NAME="metakey">
+<INPUT type="hidden" name="metavalue">
+
 
 </form>
 
@@ -186,8 +213,7 @@ body{padding:10pt;}
 </article>
 
 
-<h3>meta data</h3>
-**metadata**
+
 
 </div>
 
