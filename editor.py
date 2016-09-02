@@ -11,6 +11,18 @@ import urllib
 from modules.coptic_sql import *
 
 
+def make_options(**kwargs):
+    if "file" in kwargs:
+        names = open(kwargs["file"],'r').read().replace("\r","").split("\n")
+        names = list(name[:name.find("\t")] for name in names)
+    elif "names" in kwargs:
+        names = kwargs[names]
+    selected = kwargs["selected"] if "selected" in kwargs else None
+    # SOME CODE TO SERIALIZE TO <option ...>
+    # If the name is 'selected', add selected="selected"
+    # return string of <options>\n
+
+
 def cell(text):
     return "\n    <td>" + str(text) + "</td>"
 
