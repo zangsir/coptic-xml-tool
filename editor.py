@@ -11,15 +11,28 @@ import urllib
 from modules.coptic_sql import *
 
 
+def make_options(**kwargs):
+    if "file" in kwargs:
+        names = open(kwargs["file"],'r').read().replace("\r","").split("\n")
+        names = list(name[:name.find("\t")] for name in names)
+    elif "names" in kwargs:
+        names = kwargs[names]
+    selected = kwargs["selected"] if "selected" in kwargs else None
+    # SOME CODE TO SERIALIZE TO <option ...>
+    # If the name is 'selected', add selected="selected"
+    # return string of <options>\n
+
+
 def cell(text):
     return "\n    <td>" + str(text) + "</td>"
 
 
-def perform_action(text_content):
-    f=open("hwak.txt","a")
-    f.write('\n')
-    f.write(text_content)
-    f.close()
+def perform_action(text_content, logging=False):
+    if logging:
+        f=open("hwak.txt","a")
+        f.write('\n')
+        f.write(text_content)
+        f.close()
 
 
 def print_meta(doc_id):
@@ -146,6 +159,8 @@ def load_page(theform):
     #codemirror sends the form with its code content in it before 'save' so we just display it again
     if theform.getvalue('code'):
         text_content = theform.getvalue('code')
+        text_content = text_content.replace("\r","")
+        text_content = unicode(text_content.decode("utf8"))
         perform_action("<start content>")
         perform_action(text_content)
         perform_action('<end content>')
@@ -234,7 +249,7 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_page(theform)
+    print load_page(theform).encode("utf8")
 
 
 open_main_server()
