@@ -161,18 +161,34 @@ def load_page(theform):
 
     #editing options
     #docname
-    edit_docname = """<input type='text' name='edit_docname' value=''> <input type='submit' value='change'>"""
+    edit_docname = """<input type='text' name='edit_docname' value=%s> <input type='submit' value='change'>""" %doc_name
     #filename
-    edit_filename = """<input type='text' name='edit_filename' value=''> <input type='submit' value='change'>"""
+    edit_filename = """<input type='text' name='edit_filename' value=%s> <input type='submit' value='change'>""" %file_name
+    
     #status
-    edit_status="""<select name="edit_status">  <option value="editing">editing</option>
-    <option value='review'> review </option></select>    <input type='submit' value='change'>"""
+    sel_edit=""
+    sel_review=""
+    if status=="editing":
+        sel_edit="selected"
+    elif status=="review":
+        sel_review="selected"
+
+    edit_status="""<select name="edit_status">  
+    <option value="editing" %s>editing</option>
+    <option value='review' %s> review </option></select>    
+    <input type='submit' value='change'>""" %(sel_edit,sel_review)
+    
     #assignee
+    
     users_list=generic_query("SELECT * FROM users","")
     edit_assignee="""<select name="edit_assignee">"""
     for user in users_list:
+        assignee_select=""
         user_id,user_name=user[0],user[1]
-        edit_assignee+="""<option value='""" + str(user_id) + "'>" + user_name + """</option>"""
+        if user_name==assignee:
+            assignee_select="selected"
+        edit_assignee+="""<option value='""" + str(user_id) + "' %s>" + user_name + """</option>""" 
+        edit_assignee=edit_assignee%assignee_select
     edit_assignee+="</select><input type='submit' value='change'>"
 
     #meta data
