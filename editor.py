@@ -100,12 +100,14 @@ def load_page(theform):
             status="editing"
             assignee="1"
             text_content=""
+            doc_saved=False
             if theform.getvalue('edit_docname'):
                 docname=theform.getvalue('edit_docname')
                 if docname!='new document':
                     perform_action('edit docname new'+docname)
                     create_document(doc_name,status,assignee,file_name,text_content)
                     update_docname(doc_id,docname)
+                    doc_saved=True
 
             if theform.getvalue('edit_filename'):
                 filename=theform.getvalue('edit_filename')
@@ -113,6 +115,7 @@ def load_page(theform):
                     perform_action('edit filename new'+filename)
                     create_document(doc_name,status,assignee,file_name,text_content)
                     update_filename(doc_id,filename)
+                    doc_saved=True
                 
 
             if theform.getvalue('edit_status'):
@@ -122,6 +125,7 @@ def load_page(theform):
                     perform_action('edit status new '+newstatus)
                     create_document(doc_name,status,assignee,file_name,text_content)
                     update_status(doc_id,newstatus)
+                    doc_saved=True
                 
             if theform.getvalue('edit_assignee'):
                 #if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
@@ -130,11 +134,13 @@ def load_page(theform):
                     create_document(doc_name,status,assignee,file_name,text_content)
                     perform_action('edit ass new '+str(newassignee_id))
                     update_assignee(doc_id,newassignee_id)
-            text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-            doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-            file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-            assignee=generic_query("SELECT username FROM coptic_docs JOIN USERS ON COPTIC_DOCS.ASSIGNEE_USERS_ID = USERS.ID WHERE coptic_docs.id=?",(doc_id,))[0][0]
-            status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+                    doc_saved=True
+            if doc_saved==True:        
+                text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+                doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+                file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+                assignee=generic_query("SELECT username FROM coptic_docs JOIN USERS ON COPTIC_DOCS.ASSIGNEE_USERS_ID = USERS.ID WHERE coptic_docs.id=?",(doc_id,))[0][0]
+                status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 
         #after clicking edit in landing page, editing existing doc case, get the values from the db. pull the content from db to be displayed in the editor window.
         else:
