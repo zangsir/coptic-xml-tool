@@ -28,7 +28,7 @@ def setup_db():
     cur.execute('''CREATE TABLE IF NOT EXISTS coptic_docs
                  (id INTEGER PRIMARY KEY AUTOINCREMENT, name text, status text,assignee_users_id INTEGER ,filename text, content text,FOREIGN KEY(assignee_users_id) REFERENCES users(id))''')
     cur.execute('''CREATE TABLE IF NOT EXISTS metadata 
-                 (docid INTEGER, metaid INTEGER, key text, value text, FOREIGN KEY (docid) REFERENCES users(id), UNIQUE (docid, metaid) ON CONFLICT REPLACE))''')
+                 (docid INTEGER, metaid INTEGER, key text UNIQUE, value text, FOREIGN KEY (docid) REFERENCES users(id), UNIQUE (docid, metaid) ON CONFLICT REPLACE)''')
 
     
     conn.commit()
@@ -79,7 +79,7 @@ def delete_doc(id):
     generic_query("DELETE FROM coptic_docs WHERE id=?",(id,))
 
 def save_meta(doc_id,key,value):
-    generic_query("INSERT INTO metadata(docid,key,value) VALUES(?,?,?)",(doc_id,key,value))
+    generic_query("INSERT OR REPLACE INTO metadata(docid,key,value) VALUES(?,?,?)",(doc_id,key,value))
 
 def delete_meta(metaid):
     generic_query("DELETE FROM metadata WHERE metaid=?",(metaid,))
