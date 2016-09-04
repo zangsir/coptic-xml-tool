@@ -14,13 +14,16 @@ from modules.coptic_sql import *
 def make_options(**kwargs):
     if "file" in kwargs:
         names = open(kwargs["file"],'r').read().replace("\r","").split("\n")
+        #print len(names)
         names = list(name[:name.find("\t")] for name in names)
     elif "names" in kwargs:
         names = kwargs[names]
     selected = kwargs["selected"] if "selected" in kwargs else None
-    # SOME CODE TO SERIALIZE TO <option ...>
-    # If the name is 'selected', add selected="selected"
-    # return string of <options>\n
+    options=""
+    for name in names:
+        if name!='':
+            options+='<option value=%s>\n' %name
+    return options
 
 
 def cell(text):

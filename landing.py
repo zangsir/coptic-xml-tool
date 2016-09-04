@@ -11,6 +11,19 @@ from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
 
+def make_options(**kwargs):
+    if "file" in kwargs:
+        names = open(kwargs["file"],'r').read().replace("\r","").split("\n")
+        #print len(names)
+        names = list(name[:name.find("\t")] for name in names)
+    elif "names" in kwargs:
+        names = kwargs[names]
+    selected = kwargs["selected"] if "selected" in kwargs else None
+    options=""
+    for name in names:
+        if name!='':
+            options+='<option value=%s>\n' %name
+    return options
 
 def cell(text):
     return "\n    <td>" + str(text) + "</td>"
@@ -23,9 +36,48 @@ def get_max_id():
     return current_max
 
 
+def gen_meta_popup():
+    popup_meta_html="""
+    <HTML>
+    <HEAD>
+    <SCRIPT LANGUAGE="JavaScript"><!--
+    function copyForm() {
+        opener.document.hiddenForm.metakey.value = document.popupForm.metakey.value;
+        opener.document.hiddenForm.metavalue.value = document.popupForm.metavalue.value;
+
+        opener.document.hiddenForm.submit();
+        window.close();
+        return false;
+    }
+    //--></SCRIPT>
+    </HEAD>
+    <BODY>
+    <FORM NAME="popupForm" onSubmit="return copyForm()">
+    meta key (e.g.,year):<br>
+    <input list="metakeys" name="metakey">
+    <datalist id="metakeys">
+        ***options***
+    </datalist>
+    <br>
+    meta value(e.g.,200BC):<br>
+    <input type="text" name='metavalue'><br>
+    <INPUT TYPE="BUTTON" VALUE="Submit" onClick="copyForm()">
+    </FORM>
+    </BODY>
+    </HTML>
+
+
+    """
+    options=make_options(file='metadata_fields.tab')
+    popup_meta_html=popup_meta_html.replace("***options***",options)
+    f=open('popupPage.html','w')
+    f.write(popup_meta_html)
 
 
 def load_landing(theform):
+
+    gen_meta_popup()
+
     if theform.getvalue('deletedoc'):
         docid=theform.getvalue('id')
         delete_doc(docid)
