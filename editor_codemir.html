@@ -187,7 +187,7 @@ function openPopup(url) {
 
       var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
         mode: "xml",
-        lineNumbers: true,indentUnit:0,
+        lineNumbers: true,indentUnit:0,lineWrapping:true,
         extraKeys: {
           "'<'": completeAfter,
           "'/'": completeIfAfterLt,
