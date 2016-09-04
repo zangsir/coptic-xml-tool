@@ -31,6 +31,8 @@ def cell(text):
 
 
 def perform_action(text_content, logging=False):
+    #this is used to write information into a text file to serve as a debugging tool and log
+    #change logging=True to start logging
     if logging:
         f=open("hwak.txt","a")
         f.write('\n')
@@ -78,7 +80,7 @@ def load_page(theform):
         doc_name="new document"
         file_name="new_document.xml"
         assignee="1"
-        status="new"
+        status="editing"
         text_content=""
         js="""<script> var docid = """ + str(doc_id)
         js+=""";localStorage.setItem("docid", docid);"""
@@ -95,33 +97,37 @@ def load_page(theform):
         if int(doc_id)>int(max_id):
             doc_name="new document"
             file_name="new_document.xml"
-            status="new"
+            status="editing"
             assignee="1"
             text_content=""
             if theform.getvalue('edit_docname'):
                 docname=theform.getvalue('edit_docname')
-                perform_action('edit docname new')
-                create_document(doc_name,status,assignee,file_name,text_content)
-                update_docname(doc_id,docname)
+                if docname!='new document':
+                    perform_action('edit docname new'+docname)
+                    create_document(doc_name,status,assignee,file_name,text_content)
+                    update_docname(doc_id,docname)
 
             if theform.getvalue('edit_filename'):
                 filename=theform.getvalue('edit_filename')
-                perform_action('edit filename new')
-                create_document(doc_name,status,assignee,file_name,text_content)
-                update_filename(doc_id,filename)
+                if filename!='new_document.xml':
+                    perform_action('edit filename new'+filename)
+                    create_document(doc_name,status,assignee,file_name,text_content)
+                    update_filename(doc_id,filename)
                 
 
             if theform.getvalue('edit_status'):
-                if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
-                    newstatus=theform.getvalue('edit_status')
+                #if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
+                newstatus=theform.getvalue('edit_status')
+                if newstatus!='editing':
                     perform_action('edit status new '+newstatus)
                     create_document(doc_name,status,assignee,file_name,text_content)
                     update_status(doc_id,newstatus)
                 
             if theform.getvalue('edit_assignee'):
-                if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
-                    newassignee_id=theform.getvalue('edit_assignee')
-                    #create_document(doc_name,status,assignee,file_name,text_content)
+                #if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
+                newassignee_id=theform.getvalue('edit_assignee')
+                if newassignee_id!="1":
+                    create_document(doc_name,status,assignee,file_name,text_content)
                     perform_action('edit ass new '+str(newassignee_id))
                     update_assignee(doc_id,newassignee_id)
             text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
@@ -179,11 +185,12 @@ def load_page(theform):
 
     #editing options
     #docname
-    edit_docname = """<input type='text' name='edit_docname' value=%s> <input type='submit' value='change'>""" %doc_name
+    edit_docname = """<input type='text' name='edit_docname' value='%s'> <input type='submit' value='change'>""" %doc_name
     #filename
-    edit_filename = """<input type='text' name='edit_filename' value=%s> <input type='submit' value='change'>""" %file_name
+    edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %file_name
     
     #status
+    #which one is selected?
     sel_edit=""
     sel_review=""
     if status=="editing":
