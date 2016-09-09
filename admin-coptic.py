@@ -35,11 +35,13 @@ def write_user_file(username,password):
 def load_admin(theform):
 
     if theform.getvalue('user_delete'):
-        
-        user_del=theform.getvalue('user_delete').split('.ini')[0]
+        userdir='users/'
+        user_del_file=theform.getvalue('user_delete')
+        user_del=user_del_file.split('.ini')[0]
         perform_action(user_del)
         delete_user(user_del)
         #need to also delete the user.ini file
+        os.remove(userdir+user_del_file)
 
     if theform.getvalue('create_user'):
         perform_action('create user')
