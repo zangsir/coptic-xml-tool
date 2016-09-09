@@ -93,9 +93,9 @@ def load_admin(theform):
 
     #a list of all users
     page += '''<h2>User Management</h2>
-    <table id="doc_assign">
-    <tr>
-    <td><p>Select users to delete:</p>
+    
+    
+    <p><b>Select users to delete:</b></p>
     <select id="userlist_select" name='user_delete' class="doclist">
     '''
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
@@ -107,21 +107,24 @@ def load_admin(theform):
             userfile = userfile.replace(".ini","")
             page += '<option value="' + userfile + '.ini">'+userfile+'</option>'
     
-    page+="</select></td></tr></table>"
+    page+="</select>"
 
     
-    page+="""<input type="submit" value='delete user'>
+    page+="""</br></br><input type="submit" value='delete user'>
     </form>"""
-    page+="""</br><form action='admin-coptic.py' method='post'>
-    username <input type='text' name='username'> </br>
-    password <input type='text' name='password'> 
-    </br><input type='hidden' name='create_user' value='true'><input type='submit' value='create user'></form>"""
-
 
     #add user
-    #delete users
 
-    page+="<h2>Database management</h2>"
+    page+="""</br><b>Enter user info to create new user:</b></br><form action='admin-coptic.py' method='post'>
+    username <input type='text' name='username'> </br>
+    password <input type='text' name='password'> 
+    </br></br><input type='hidden' name='create_user' value='true'><input type='submit' value='create user'></form>"""
+
+
+
+    
+
+    page+="<br><br><h2>Database management</h2>"
     #init database, setup_db, wipe all documents
 
     page+="""<form action='admin-coptic.py' method='post'>

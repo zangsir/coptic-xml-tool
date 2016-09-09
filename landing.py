@@ -152,8 +152,7 @@ def load_landing(theform):
     create_new_doc+=""" <input type="hidden" name="newdoc" value='true'>    """
     create_new_doc+= """<input type="submit" value="create new document"> </form>"""
     
-    admin_page="""\n<form action='admin-coptic.py' method="post"> <input type='submit' value='admin'></form>
-    """
+    admin_page="""<form action='admin-coptic.py' method="post"> <input type='submit' value='admin'></form><br>"""
 
     page+=admin_page
     page+=table
