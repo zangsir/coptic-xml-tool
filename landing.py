@@ -160,8 +160,11 @@ def load_landing(theform):
     create_new_doc = """\n\n\n<form action='editor.py'><input type="hidden" name="id" value="""+str(max_id+1)+">"  
     create_new_doc+=""" <input type="hidden" name="newdoc" value='true'>    """
     create_new_doc+= """<input type="submit" value="create new document"> </form>"""
+    
+    admin_page="""\n<form action='admin-coptic.py'> <input type='submit' value='admin'></form>
+    """
 
-
+    page+=admin_page
     page+=table
     page+="<br><br>"
     page+=create_new_doc
