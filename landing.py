@@ -26,7 +26,7 @@ def make_options(**kwargs):
     return options
 
 def cell(text):
-    return "\n    <td>" + str(text) + "</td>"
+    return "<td>" + str(text) + "</td>"
 
 def get_max_id():
     #get current max of existing records in the db
@@ -89,19 +89,10 @@ def load_landing(theform):
     
     #for each doc in the doc list, just display doc[:-1], since last col is content
 
-    table="""<table>
-      <tr>
-        <th>id</th>
-        <th>doc name</th>
-        <th>status</th>
-        <th>assigned</th>
-        <th>filename</th>
-        <th>editing</th>
-        <th>deletion</th>
-      </tr>"""
+    table="""<table><tr><th>id</th><th>doc name</th><th>status</th><th>assigned</th><th>filename</th><th>editing</th><th>deletion</th></tr>"""
 
     for doc in docs_list:
-        row="\n <tr>"
+        row="<tr>"
         for item in doc:
             
             row+=cell(item)
@@ -119,10 +110,10 @@ def load_landing(theform):
 
         row+=cell(button_edit)
         row+=cell(button_delete)
-        row+="\n </tr>"
+        row+="</tr>"
         table+=row
         
-    table+="\n</table>"
+    table+="</table>"
 
     page= "Content-type:text/html\r\n\r\n"
     page+="""
