@@ -11,7 +11,48 @@ from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
 
+
+
+def perform_action(text_content, logging=True):
+    #this is used to write information into a text file to serve as a debugging tool and log
+    #change logging=True to start logging
+    if logging:
+        f=open("hwak.txt","a")
+        f.write('\n')
+        f.write(text_content)
+        f.close()
+
+def write_user_file(username,password):
+    #this is used to write information into a text file to serve as a debugging tool and log
+    #change logging=True to start logging
+    userdir="users/"
+    f=open(userdir+username+'.ini',"w")
+    f.write('username='+username)
+    f.write('password='+password)
+
+    f.close()
+
 def load_admin(theform):
+
+    if theform.getvalue('user_delete'):
+        
+        user_del=theform.getvalue('user_delete').split('.ini')[0]
+        perform_action(user_del)
+        delete_user(user_del)
+        #need to also delete the user.ini file
+
+    if theform.getvalue('create_user'):
+        perform_action('create user')
+        username=theform.getvalue('username')
+        password=theform.getvalue('password')
+        #create user in database
+        create_user(username)
+        #need to write a user file for login tools
+        write_user_file(username,password)
+
+    if theform.getvalue('init_db'):
+        perform_action('init db')
+
     page= "Content-type:text/html\r\n\r\n"
     page+="""
 
@@ -44,7 +85,7 @@ def load_admin(theform):
     
 
     """
-    
+    page+="""<form action="admin-coptic.py" method='post'>"""
 
     #page+="""<h2> User Management </h2>"""
 
@@ -52,8 +93,8 @@ def load_admin(theform):
     page += '''<h2>User Management</h2>
     <table id="doc_assign">
     <tr>
-    <td><p>Users:</p>
-    <select id="userlist_select" multiple="multiple" size="10" class="doclist">
+    <td><p>Select users to delete:</p>
+    <select id="userlist_select" name='user_delete' class="doclist">
     '''
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
@@ -66,6 +107,13 @@ def load_admin(theform):
     
     page+="</select></td></tr></table>"
 
+    
+    page+="""<input type="submit" value='delete user'>
+    </form>"""
+    page+="""</br><form action='admin-coptic.py' method='post'>
+    username <input type='text' name='username'> </br>
+    password <input type='text' name='password'> 
+    </br><input type='hidden' name='create_user' value='true'><input type='submit' value='create user'></form>"""
 
 
     #add user
@@ -74,6 +122,9 @@ def load_admin(theform):
     page+="<h2>Database management</h2>"
     #init database, setup_db, wipe all documents
 
+    page+="""<form action='admin-coptic.py' method='post'>
+    warning: this will wipe the database!
+    <br><input type='hidden' name='init_db' value='true'><input type='submit' value='init database'></form>"""
 
 
 
