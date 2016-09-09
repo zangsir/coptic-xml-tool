@@ -75,6 +75,9 @@ def update_filename(id,filename):
 def create_user(username):
     generic_query("INSERT INTO users(username) VALUES(?)",(username,))
 
+def delete_user(username):
+    generic_query("DELETE FROM users WHERE username=?",(username,))
+
 def delete_doc(id):
     generic_query("DELETE FROM coptic_docs WHERE id=?",(id,))
 
