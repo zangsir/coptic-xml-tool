@@ -23,10 +23,15 @@ def setup_db():
     conn.commit()
     
     # Create tables
-    cur.execute('''CREATE TABLE IF NOT EXISTS users
-                 (id INTEGER PRIMARY KEY AUTOINCREMENT, username text)''')
+    #user table not used
+    #cur.execute('''CREATE TABLE IF NOT EXISTS users
+    #             (id INTEGER PRIMARY KEY AUTOINCREMENT, username text)''')
+
+
+    #docs table
     cur.execute('''CREATE TABLE IF NOT EXISTS coptic_docs
-                 (id INTEGER PRIMARY KEY AUTOINCREMENT, name text, status text,assignee_users_id INTEGER ,filename text, content text,FOREIGN KEY(assignee_users_id) REFERENCES users(id))''')
+                 (id INTEGER PRIMARY KEY AUTOINCREMENT, name text, status text,assignee_username text ,filename text, content text)''')
+    #metadata table
     cur.execute('''CREATE TABLE IF NOT EXISTS metadata 
                  (docid INTEGER, metaid INTEGER, key text UNIQUE, value text, FOREIGN KEY (docid) REFERENCES users(id), UNIQUE (docid, metaid) ON CONFLICT REPLACE)''')
 
@@ -35,8 +40,8 @@ def setup_db():
     conn.close()
     
 
-def create_document(name,status,assigned_id,filename,content):
-    generic_query("INSERT INTO coptic_docs(name,status,assignee_users_id,filename,content) VALUES(?,?,?,?,?)", (name,status,assigned_id,filename,content))
+def create_document(name,status,assigned_username,filename,content):
+    generic_query("INSERT INTO coptic_docs(name,status,assignee_username,filename,content) VALUES(?,?,?,?,?)", (name,status,assigned_username,filename,content))
 
 
 def generic_query(sql,params):
@@ -58,8 +63,8 @@ def save_changes(id,content):
     generic_query("UPDATE coptic_docs SET content=? WHERE id=?",(content,id))
 
 
-def update_assignee(doc_id,user_id):
-    generic_query("UPDATE coptic_docs SET assignee_users_id=? WHERE id=?",(user_id,doc_id))
+def update_assignee(doc_id,user_name):
+    generic_query("UPDATE coptic_docs SET assignee_username=? WHERE id=?",(user_name,doc_id))
 
 def update_status(id,status):
     generic_query("UPDATE coptic_docs SET status=? WHERE id=?",(status,id))
@@ -72,11 +77,11 @@ def update_filename(id,filename):
     generic_query("UPDATE coptic_docs SET filename=? WHERE id=?",(filename,id))
 
 
-def create_user(username):
-    generic_query("INSERT INTO users(username) VALUES(?)",(username,))
+#def create_user(username):
+ #   generic_query("INSERT INTO users(username) VALUES(?)",(username,))
 
-def delete_user(username):
-    generic_query("DELETE FROM users WHERE username=?",(username,))
+#def delete_user(username):
+ #   generic_query("DELETE FROM users WHERE username=?",(username,))
 
 def delete_doc(id):
     generic_query("DELETE FROM coptic_docs WHERE id=?",(id,))
