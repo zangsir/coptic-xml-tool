@@ -5,11 +5,14 @@
 # Import modules for CGI handling 
 import cgi, cgitb 
 import os
+from os import listdir
 from modules.logintools import login
 from modules.configobj import ConfigObj
 from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
+from os.path import isfile, join
+
 
 def perform_action(text_content, logging=True):
     #this is used to write information into a text file to serve as a debugging tool and log
@@ -94,7 +97,7 @@ def load_landing(user,admin,theform):
         delete_doc(docid)
 
     #docs_list=generic_query("SELECT * FROM coptic_docs","")
-    docs_list=generic_query("SELECT coptic_docs.id,name,status,username,filename FROM coptic_docs JOIN users ON coptic_docs.assignee_users_id=users.id",())
+    docs_list=generic_query("SELECT id,name,status,assignee_username,filename FROM coptic_docs",())
 
     max_id=get_max_id()
     

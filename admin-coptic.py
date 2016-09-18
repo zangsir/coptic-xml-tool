@@ -22,24 +22,27 @@ def perform_action(text_content, logging=True):
         f.write(text_content)
         f.close()
 
-def write_user_file(username,password):
+def write_user_file(username,password,admin,email,realname):
     #this is used to write information into a text file to serve as a debugging tool and log
     #change logging=True to start logging
     userdir="users/"
     f=open(userdir+username+'.ini',"w")
     f.write('username='+username)
     f.write('password='+password)
+    f.write('realname='+realname)
+    f.write('admin='+str(admin))
+    f.write('email='+email)
 
     f.close()
 
-def load_admin(theform):
+def load_admin(user,admin,theform):
 
     if theform.getvalue('user_delete'):
         userdir='users/'
         user_del_file=theform.getvalue('user_delete')
         user_del=user_del_file.split('.ini')[0]
         perform_action(user_del)
-        delete_user(user_del)
+        #delete_user(user_del)
         #need to also delete the user.ini file
         os.remove(userdir+user_del_file)
 
@@ -47,10 +50,15 @@ def load_admin(theform):
         perform_action('create user')
         username=theform.getvalue('username')
         password=theform.getvalue('password')
+        realname=theform.getvalue('realname')
+        email=theform.getvalue('email')
+        admin=theform.getvalue('admin')
+
+
         #create user in database
-        create_user(username)
+        #create_user(username)
         #need to write a user file for login tools
-        write_user_file(username,password)
+        write_user_file(username,password,admin,email,realname)
 
     if theform.getvalue('init_db'):
         perform_action('init db')
@@ -117,7 +125,14 @@ def load_admin(theform):
 
     page+="""</br><b>Enter user info to create new user:</b></br><form action='admin-coptic.py' method='post'>
     username <input type='text' name='username'> </br>
-    password <input type='text' name='password'> 
+    password <input type='text' name='password'> </br>
+    realname <input type='text' name='realname'> </br>
+    email <input type='text' name='email'> </br>
+    admin <input type='text' name='admin'> </br>
+
+
+
+
     </br></br><input type='hidden' name='create_user' value='true'><input type='submit' value='create user'></form>"""
 
 
@@ -147,7 +162,9 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_admin(theform)
+    user = userconfig["username"]
+    admin = userconfig["admin"]
+    print load_admin(user,admin,theform)
 
 
 

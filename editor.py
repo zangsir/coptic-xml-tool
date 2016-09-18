@@ -4,11 +4,14 @@
 # Import modules for CGI handling 
 import cgi, cgitb 
 import os
+from os import listdir
 from modules.logintools import login
 from modules.configobj import ConfigObj
 from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
+from os.path import isfile, join
+
 
 
 def make_options(**kwargs):
@@ -69,7 +72,7 @@ def print_meta(doc_id):
 
 
 
-def load_page(theform):
+def load_page(user,admin,theform):
     perform_action('===========new=============')
     max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
     text_content=""
@@ -79,7 +82,7 @@ def load_page(theform):
         perform_action(doc_id)
         doc_name="new document"
         file_name="new_document.xml"
-        assignee="1"
+        assignee="default_user"
         status="editing"
         text_content=""
         js="""<script> var docid = """ + str(doc_id)
@@ -98,9 +101,10 @@ def load_page(theform):
             doc_name="new document"
             file_name="new_document.xml"
             status="editing"
-            assignee="1"
+            assignee="default_user"
             text_content=""
             doc_saved=False
+            #if one of the four forms is edited, then we create the doc, otherwise nothing happens(user cannot fill in nothing and create the doc)
             if theform.getvalue('edit_docname'):
                 docname=theform.getvalue('edit_docname')
                 if docname!='new document':
@@ -129,17 +133,17 @@ def load_page(theform):
                 
             if theform.getvalue('edit_assignee'):
                 #if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
-                newassignee_id=theform.getvalue('edit_assignee')
-                if newassignee_id!="1":
+                newassignee_username=theform.getvalue('edit_assignee')
+                if newassignee_username!="default_user":
                     create_document(doc_name,status,assignee,file_name,text_content)
-                    perform_action('edit ass new '+str(newassignee_id))
-                    update_assignee(doc_id,newassignee_id)
+                    perform_action('edit ass new '+str(newassignee_username))
+                    update_assignee(doc_id,newassignee_username)
                     doc_saved=True
             if doc_saved==True:        
                 text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-                assignee=generic_query("SELECT username FROM coptic_docs JOIN USERS ON COPTIC_DOCS.ASSIGNEE_USERS_ID = USERS.ID WHERE coptic_docs.id=?",(doc_id,))[0][0]
+                assignee=generic_query("SELECT assignee_username FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 
         #after clicking edit in landing page, editing existing doc case, get the values from the db. pull the content from db to be displayed in the editor window.
@@ -157,13 +161,13 @@ def load_page(theform):
                 perform_action('edit status existing')
                 update_status(doc_id,newstatus)
             if theform.getvalue('edit_assignee'):
-                newassignee_id=theform.getvalue('edit_assignee')
+                newassignee_username=theform.getvalue('edit_assignee')
                 perform_action('edit ass exsiting')
-                update_assignee(doc_id,newassignee_id)
+                update_assignee(doc_id,newassignee_username)
             text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-            assignee=generic_query("SELECT username FROM coptic_docs JOIN USERS ON COPTIC_DOCS.ASSIGNEE_USERS_ID = USERS.ID WHERE coptic_docs.id=?",(doc_id,))[0][0]
+            assignee=generic_query("SELECT assignee_username FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             
 
@@ -211,14 +215,29 @@ def load_page(theform):
     
     #assignee
     
-    users_list=generic_query("SELECT * FROM users","")
+    #user_list=generic_query("SELECT * FROM users","")
+    
+
+    #get user_list from the logintools instead
+    user_list=[]
+    scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
+    userdir = scriptpath + "users" + os.sep
+
+    userfiles = [ f for f in listdir(userdir) if isfile(join(userdir,f)) ]
+    for userfile in sorted(userfiles):
+        if userfile != "config.ini" and userfile != "default.ini" and userfile != "admin.ini" and userfile.endswith(".ini"):
+            userfile = userfile.replace(".ini","")
+            user_list.append(userfile)
+    perform_action(str(user_list))
+
+
     edit_assignee="""<select name="edit_assignee">"""
-    for user in users_list:
+    for user in user_list:
         assignee_select=""
-        user_id,user_name=user[0],user[1]
+        user_name=user
         if user_name==assignee:
             assignee_select="selected"
-        edit_assignee+="""<option value='""" + str(user_id) + "' %s>" + user_name + """</option>""" 
+        edit_assignee+="""<option value='""" + user_name + "' %s>" + user_name + """</option>""" 
         edit_assignee=edit_assignee%assignee_select
     edit_assignee+="</select><input type='submit' value='change'>"
 
@@ -265,7 +284,9 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_page(theform).encode("utf8")
+    user = userconfig["username"]
+    admin = userconfig["admin"]
+    print load_page(user,admin,theform).encode("utf8")
 
 
 open_main_server()
