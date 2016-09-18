@@ -11,6 +11,16 @@ from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
 
+def perform_action(text_content, logging=True):
+    #this is used to write information into a text file to serve as a debugging tool and log
+    #change logging=True to start logging
+    if logging:
+        f=open("hwak.txt","a")
+        f.write('\n')
+        f.write(text_content)
+        f.close()
+
+
 def make_options(**kwargs):
     if "file" in kwargs:
         names = open(kwargs["file"],'r').read().replace("\r","").split("\n")
@@ -74,8 +84,9 @@ def gen_meta_popup():
     f.write(popup_meta_html)
 
 
-def load_landing(theform):
-
+def load_landing(user,admin,theform):
+    perform_action('user='+user)
+    perform_action('admin='+admin)
     gen_meta_popup()
 
     if theform.getvalue('deletedoc'):
@@ -143,21 +154,27 @@ def load_landing(theform):
     <h1 >Coptic XML transcription editor</h1>
         <p style="border-bottom:groove;"><i>created by Shuo Zhang and Amir Zeldes</i></p>
 
-    <h2>Welcome!</h2>
+    <h2>Welcome!
 
 
     """
 
     create_new_doc = """\n\n\n<form action='editor.py'><input type="hidden" name="id" value="""+str(max_id+1)+">"  
     create_new_doc+=""" <input type="hidden" name="newdoc" value='true'>    """
-    create_new_doc+= """<input type="submit" value="create new document"> </form>"""
+    create_new_doc+= """<input type="submit" value="create new document"> </form></br>"""
     
-    admin_page="""<form action='admin-coptic.py' method="post"> <input type='submit' value='admin'></form><br>"""
 
+    admin_page="""<form action='admin-coptic.py' method="post"> <input type='submit' value='admin'></form></br>"""
+
+    logout="""<form action='landing.py'> <input type='hidden' name='login' value='logout'><input type='submit' value='logout'></form></br>"""
+    
+    page+='Current user: '+ user + "</h2>"
     page+=admin_page
+    
     page+=table
     page+="<br><br>"
     page+=create_new_doc
+    page+=logout
     page+='\n</body>\n</html>'
     
     return page
@@ -173,7 +190,9 @@ def open_main_server():
     scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
     userdir = scriptpath + "users" + os.sep
     action, userconfig = login(theform, userdir, thisscript, action)
-    print load_landing(theform)
+    user = userconfig["username"]
+    admin = userconfig["admin"]
+    print load_landing(user,admin,theform)
 
 
 
