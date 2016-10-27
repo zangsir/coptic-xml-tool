@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eebbb8f1-081f-4b98-8e23-ac64af5447f2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/users/zuser.ini" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/logo.png" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/yinyang.png" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/yinyang.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coptic.db" afterPath="$PROJECT_DIR$/coptic.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cop.png" afterPath="$PROJECT_DIR$/img/cop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/rstweb_logo.png" afterPath="$PROJECT_DIR$/img/rstweb_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-coptic.py" afterPath="$PROJECT_DIR$/admin-coptic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/.gitattributes" afterPath="$PROJECT_DIR$/codemirror-5.15.2/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/.gitignore" afterPath="$PROJECT_DIR$/codemirror-5.15.2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/.npmignore" afterPath="$PROJECT_DIR$/codemirror-5.15.2/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/.travis.yml" afterPath="$PROJECT_DIR$/codemirror-5.15.2/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/AUTHORS" afterPath="$PROJECT_DIR$/codemirror-5.15.2/AUTHORS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/CHANGELOG.md" afterPath="$PROJECT_DIR$/codemirror-5.15.2/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/codemirror-5.15.2/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/LICENSE" afterPath="$PROJECT_DIR$/codemirror-5.15.2/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/README.md" afterPath="$PROJECT_DIR$/codemirror-5.15.2/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/comment/comment.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/comment/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/comment/continuecomment.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/comment/continuecomment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/dialog/dialog.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/dialog/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/dialog/dialog.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/dialog/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/autorefresh.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/autorefresh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/fullscreen.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/fullscreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/fullscreen.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/fullscreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/panel.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/panel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/placeholder.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/placeholder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/rulers.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/display/rulers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/closebrackets.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/closebrackets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/closetag.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/closetag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/continuelist.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/continuelist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/matchbrackets.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/matchbrackets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/matchtags.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/matchtags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/trailingspace.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/edit/trailingspace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/brace-fold.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/brace-fold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/comment-fold.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/comment-fold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldcode.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldgutter.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldgutter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldgutter.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/foldgutter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/indent-fold.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/indent-fold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/markdown-fold.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/markdown-fold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/xml-fold.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/fold/xml-fold.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/anyword-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/anyword-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/css-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/css-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/html-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/html-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/javascript-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/javascript-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/show-hint.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/show-hint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/show-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/show-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/sql-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/sql-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/xml-hint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/hint/xml-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/coffeescript-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/coffeescript-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/css-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/css-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/html-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/html-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/javascript-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/javascript-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/json-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/json-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/lint.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/lint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/yaml-lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/lint/yaml-lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/merge/merge.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/merge/merge.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/merge/merge.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/merge/merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/loadmode.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/loadmode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/multiplex.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/multiplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/multiplex_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/multiplex_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/overlay.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/overlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/simple.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/mode/simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/colorize.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/colorize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode-standalone.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode-standalone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode.node.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/runmode/runmode.node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/annotatescrollbar.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/annotatescrollbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/scrollpastend.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/scrollpastend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/simplescrollbars.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/simplescrollbars.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/simplescrollbars.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/scroll/simplescrollbars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/jump-to-line.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/jump-to-line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/match-highlighter.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/match-highlighter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/matchesonscrollbar.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/matchesonscrollbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/matchesonscrollbar.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/matchesonscrollbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/search.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/searchcursor.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/search/searchcursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/active-line.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/active-line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/mark-selection.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/mark-selection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/selection-pointer.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/selection/selection-pointer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/tern.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/tern.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/tern.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/tern.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/worker.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/tern/worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/addon/wrap/hardwrap.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/addon/wrap/hardwrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/bower.json" afterPath="$PROJECT_DIR$/codemirror-5.15.2/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/activeline.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/activeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/anywordhint.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/anywordhint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/bidi.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/bidi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/btree.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/btree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/buffers.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/buffers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/changemode.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/changemode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/closebrackets.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/closebrackets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/closetag.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/closetag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/complete.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/complete.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/demoxml.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/demoxml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/emacs.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/emacs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/folding.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/folding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/fullscreen.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/fullscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/hardwrap.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/hardwrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/html5complete.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/html5complete.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/indentwrap.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/indentwrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/lint.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/lint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/loadmode.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/loadmode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/marker.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/marker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/markselection.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/markselection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/matchhighlighter.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/matchhighlighter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/matchtags.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/matchtags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/merge.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/merge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/multiplex.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/multiplex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/mustache.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/mustache.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/panel.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/placeholder.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/placeholder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/preview.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/requirejs.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/requirejs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/resize.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/resize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/rulers.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/rulers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/runmode.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/runmode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/search.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/simplemode.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/simplemode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/simplescrollbars.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/simplescrollbars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/spanaffectswrapping_shim.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/spanaffectswrapping_shim.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/sublime.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/sublime.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/tern.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/tern.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/theme.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/theme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/trailingspace.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/trailingspace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/try2.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/try2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/variableheight.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/variableheight.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/vim.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/vim.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/visibletabs.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/visibletabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/widget.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/widget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/demo/xmlcomplete.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/demo/xmlcomplete.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/activebookmark.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/activebookmark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/compress.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/compress.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/docs.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/docs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/internals.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/internals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/logo.svg" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/manual.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/manual.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/realworld.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/realworld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/releases.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/releases.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/reporting.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/reporting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v2.2.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v2.2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v3.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v4.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/doc/upgrade_v4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/keymap/emacs.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/keymap/emacs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/keymap/sublime.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/keymap/sublime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/keymap/vim.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/keymap/vim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/lib/codemirror.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/lib/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/lib/codemirror.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/lib/codemirror.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/apl/apl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/apl/apl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/apl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/apl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asciiarmor/asciiarmor.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asciiarmor/asciiarmor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asciiarmor/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asciiarmor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asn.1/asn.1.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asn.1/asn.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asn.1/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asn.1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asterisk/asterisk.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asterisk/asterisk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/asterisk/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/asterisk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/brainfuck/brainfuck.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/brainfuck/brainfuck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/brainfuck/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/brainfuck/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/clike.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/clike.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/scala.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clike/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clojure/clojure.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clojure/clojure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/clojure/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/clojure/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cmake/cmake.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cmake/cmake.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cmake/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cmake/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cobol/cobol.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cobol/cobol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cobol/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cobol/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/coffeescript/coffeescript.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/coffeescript/coffeescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/coffeescript/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/coffeescript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/commonlisp/commonlisp.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/commonlisp/commonlisp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/commonlisp/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/commonlisp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/crystal/crystal.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/crystal/crystal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/crystal/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/crystal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/css.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/gss.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/gss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/gss_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/gss_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/less.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/less.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/less_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/less_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/scss.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/scss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/scss_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/scss_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/css/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cypher/cypher.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cypher/cypher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/cypher/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/cypher/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/d/d.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/d/d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/d/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dart/dart.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dart/dart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dart/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dart/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/diff/diff.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/diff/diff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/diff/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/diff/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/django/django.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/django/django.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/django/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/django/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dockerfile/dockerfile.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dockerfile/dockerfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dockerfile/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dockerfile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dtd/dtd.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dtd/dtd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dtd/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dtd/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/dylan.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/dylan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/dylan/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ebnf/ebnf.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ebnf/ebnf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ebnf/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ebnf/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ecl/ecl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ecl/ecl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ecl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ecl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/eiffel/eiffel.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/eiffel/eiffel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/eiffel/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/eiffel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/elm/elm.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/elm/elm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/elm/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/elm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/erlang/erlang.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/erlang/erlang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/erlang/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/erlang/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/factor/factor.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/factor/factor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/factor/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/factor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/fcl/fcl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/fcl/fcl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/fcl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/fcl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/forth/forth.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/forth/forth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/forth/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/forth/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/fortran/fortran.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/fortran/fortran.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/fortran/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/fortran/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gas/gas.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gas/gas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gas/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/gfm.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/gfm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gfm/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gherkin/gherkin.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gherkin/gherkin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/gherkin/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/gherkin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/go/go.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/go/go.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/go/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/go/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/groovy/groovy.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/groovy/groovy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/groovy/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/groovy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/haml.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/haml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haml/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/handlebars/handlebars.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/handlebars/handlebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/handlebars/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/handlebars/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell-literate/haskell-literate.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell-literate/haskell-literate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell-literate/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell-literate/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell/haskell.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell/haskell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haskell/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haxe/haxe.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haxe/haxe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/haxe/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/haxe/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlembedded/htmlembedded.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlembedded/htmlembedded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlembedded/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlembedded/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlmixed/htmlmixed.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlmixed/htmlmixed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlmixed/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/htmlmixed/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/http/http.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/http/http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/http/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/http/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/idl/idl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/idl/idl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/idl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/idl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jade/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jade/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jade/jade.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jade/jade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/javascript.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/json-ld.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/json-ld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/typescript.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/javascript/typescript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jinja2/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jinja2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jinja2/jinja2.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jinja2/jinja2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/jsx.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/jsx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/jsx/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/julia/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/julia/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/julia/julia.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/julia/julia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/livescript/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/livescript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/livescript/livescript.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/livescript/livescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/lua/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/lua/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/lua/lua.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/lua/lua.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/markdown.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/markdown/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mathematica/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mathematica/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mathematica/mathematica.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mathematica/mathematica.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mbox/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mbox/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mbox/mbox.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mbox/mbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/meta.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/meta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mirc/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mirc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mirc/mirc.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mirc/mirc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mllike/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mllike/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mllike/mllike.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mllike/mllike.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/modelica/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/modelica/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/modelica/modelica.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/modelica/modelica.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/mscgen.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/mscgen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/mscgen_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/mscgen_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/msgenny_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/msgenny_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/xu_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mscgen/xu_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mumps/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mumps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/mumps/mumps.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/mumps/mumps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/nginx/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/nginx/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/nginx/nginx.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/nginx/nginx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/nsis/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/nsis/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/nsis/nsis.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/nsis/nsis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ntriples/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ntriples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ntriples/ntriples.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ntriples/ntriples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/octave/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/octave/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/octave/octave.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/octave/octave.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/oz/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/oz/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/oz/oz.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/oz/oz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pascal/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pascal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pascal/pascal.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pascal/pascal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pegjs/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pegjs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pegjs/pegjs.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pegjs/pegjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/perl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/perl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/perl/perl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/perl/perl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/php.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/php.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/php/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pig/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pig/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/pig/pig.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/pig/pig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/powershell.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/powershell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/powershell/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/properties/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/properties/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/properties/properties.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/properties/properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/protobuf/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/protobuf/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/protobuf/protobuf.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/protobuf/protobuf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/puppet/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/puppet/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/puppet/puppet.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/puppet/puppet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/python.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/python.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/python/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/q/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/q/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/q/q.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/q/q.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/r/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/r/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/r/r.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/r/r.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/changes/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/changes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/rpm.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rpm/rpm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rst/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rst/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rst/rst.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rst/rst.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/ruby.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/ruby.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ruby/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/rust.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/rust.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/rust/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sas/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sass/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sass/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sass/sass.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sass/sass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/scheme/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/scheme/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/scheme/scheme.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/scheme/scheme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/shell.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/shell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/shell/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sieve/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sieve/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sieve/sieve.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sieve/sieve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/slim.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/slim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/slim/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/smalltalk/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/smalltalk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/smalltalk/smalltalk.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/smalltalk/smalltalk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/smarty/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/smarty/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/smarty/smarty.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/smarty/smarty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/solr/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/solr/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/solr/solr.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/solr/solr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/soy/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/soy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/soy/soy.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/soy/soy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sparql/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sparql/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sparql/sparql.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sparql/sparql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/spreadsheet/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/spreadsheet/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/spreadsheet/spreadsheet.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/spreadsheet/spreadsheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sql/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sql/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/sql/sql.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/sql/sql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/stex.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/stex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/stex/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/stylus/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/stylus/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/stylus/stylus.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/stylus/stylus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/swift/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/swift/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/swift/swift.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/swift/swift.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tcl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tcl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tcl/tcl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tcl/tcl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/textile.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/textile/textile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/tiddlywiki.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/tiddlywiki.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/tiddlywiki.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiddlywiki/tiddlywiki.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/tiki.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/tiki.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/tiki.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tiki/tiki.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/toml/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/toml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/toml/toml.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/toml/toml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tornado/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tornado/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/tornado/tornado.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/tornado/tornado.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/troff/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/troff/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/troff/troff.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/troff/troff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn-cfg/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn-cfg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn-cfg/ttcn-cfg.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn-cfg/ttcn-cfg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn/ttcn.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/ttcn/ttcn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/turtle/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/turtle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/turtle/turtle.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/turtle/turtle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/twig/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/twig/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/twig/twig.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/twig/twig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vb/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vb/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vb/vb.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vb/vb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vbscript/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vbscript/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vbscript/vbscript.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vbscript/vbscript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/velocity/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/velocity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/velocity/velocity.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/velocity/velocity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/verilog.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/verilog/verilog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vhdl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vhdl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vhdl/vhdl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vhdl/vhdl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vue/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vue/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/vue/vue.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/vue/vue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/webidl/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/webidl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/webidl/webidl.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/webidl/webidl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/xml.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xml/xml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/xquery.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/xquery/xquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yacas/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yacas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yacas/yacas.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yacas/yacas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml-frontmatter/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml-frontmatter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml-frontmatter/yaml-frontmatter.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml-frontmatter/yaml-frontmatter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml/yaml.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/yaml/yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/z80/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/z80/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/mode/z80/z80.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/mode/z80/z80.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/package.json" afterPath="$PROJECT_DIR$/codemirror-5.15.2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/comment_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/comment_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/doc_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/doc_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/driver.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/driver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/emacs_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/emacs_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/index.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/lint.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/lint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/mode_test.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/mode_test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/mode_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/mode_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/multi_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/multi_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/phantom_driver.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/phantom_driver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/scroll_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/scroll_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/search_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/search_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/sql-hint-test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/sql-hint-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/sublime_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/sublime_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/test/vim_test.js" afterPath="$PROJECT_DIR$/codemirror-5.15.2/test/vim_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/3024-day.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/3024-day.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/3024-night.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/3024-night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/abcdef.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/abcdef.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/ambiance-mobile.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/ambiance-mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/ambiance.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/ambiance.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/base16-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/base16-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/base16-light.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/base16-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/bespin.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/bespin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/blackboard.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/blackboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/cobalt.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/cobalt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/colorforth.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/colorforth.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/dracula.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/dracula.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/eclipse.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/eclipse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/elegant.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/elegant.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/erlang-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/erlang-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/hopscotch.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/hopscotch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/icecoder.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/icecoder.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/isotope.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/isotope.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/lesser-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/lesser-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/liquibyte.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/liquibyte.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/material.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/mbo.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/mbo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/mdn-like.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/mdn-like.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/midnight.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/midnight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/monokai.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/monokai.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/neat.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/neat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/neo.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/neo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/night.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/paraiso-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/paraiso-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/paraiso-light.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/paraiso-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/pastel-on-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/pastel-on-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/railscasts.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/railscasts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/rubyblue.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/rubyblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/seti.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/seti.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/solarized.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/solarized.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/the-matrix.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/the-matrix.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/tomorrow-night-bright.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/tomorrow-night-eighties.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/ttcn.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/ttcn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/twilight.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/twilight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/vibrant-ink.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/vibrant-ink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/xq-dark.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/xq-dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/xq-light.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/xq-light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/yeti.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/yeti.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/theme/zenburn.css" afterPath="$PROJECT_DIR$/codemirror-5.15.2/theme/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/try-codemirror.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/try-codemirror.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codemirror-5.15.2/try.html" afterPath="$PROJECT_DIR$/codemirror-5.15.2/try.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor_codemir.html" afterPath="$PROJECT_DIR$/editor_codemir.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hwak.txt" afterPath="$PROJECT_DIR$/hwak.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata_fields.tab" afterPath="$PROJECT_DIR$/metadata_fields.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/coptic-notebook-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/coptic-notebook-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/coptic-notebook.ipynb" afterPath="$PROJECT_DIR$/modules/coptic-notebook.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popupPage.html" afterPath="$PROJECT_DIR$/popupPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/admin.ini" afterPath="$PROJECT_DIR$/users/admin.ini" />
+    </list>
+    <ignored path="coptic-xml-tool.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="coptic-xml-tool" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="azeldes.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/azeldes.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="szhang.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/szhang.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/users/szhang.ini" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1275" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coptic-xml-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coptic-xml-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coptic-xml-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coptic-xml-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coptic-xml-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eebbb8f1-081f-4b98-8e23-ac64af5447f2" name="Default" comment="" />
+      <created>1477533711025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477533711025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1275" height="721" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/users/zangsir.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/azeldes.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/szhang.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,297 +1,43 @@
 
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-
-===========new=============
-4
-<input type="hidden" name="metaid"  value=20>
-<input type="hidden" name="metaid"  value=21>
-<input type="hidden" name="metaid"  value=23>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-
-===========new=============
-4
-<input type="hidden" name="metaid"  value=20>
-<input type="hidden" name="metaid"  value=21>
-<input type="hidden" name="metaid"  value=23>
-===========new=============
-4
-<input type="hidden" name="metaid"  value=20>
-<input type="hidden" name="metaid"  value=21>
-<input type="hidden" name="metaid"  value=23>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-author
-john smith
-<input type="hidden" name="metaid"  value=20>
-<input type="hidden" name="metaid"  value=21>
-<input type="hidden" name="metaid"  value=23>
-<input type="hidden" name="metaid"  value=24>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-
-===========new=============
-4
-<button type="hidden" name="metaid"  value=20> delete </button>
-<button type="hidden" name="metaid"  value=21> delete </button>
-<button type="hidden" name="metaid"  value=23> delete </button>
-<button type="hidden" name="metaid"  value=24> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-21
-<button type="hidden" name="metaid"  value=20> delete </button>
-<button type="hidden" name="metaid"  value=23> delete </button>
-<button type="hidden" name="metaid"  value=24> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-20
-<button type="hidden" name="metaid"  value=23> delete </button>
-<button type="hidden" name="metaid"  value=24> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-23
-<button type="hidden" name="metaid"  value=24> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-year
-1097
-<button type="hidden" name="metaid"  value=24> delete </button>
-<button type="hidden" name="metaid"  value=25> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-========delete meta
-24
-<button type="hidden" name="metaid"  value=25> delete </button>
-===========new=============
-4
-edit status existing
-edit ass exsiting
-<start content>
-obama is a good president.he did a slow jam with Jimmy Fallon.
-obama endorsed Hilary Clinton.how is she?
-<end content>
-author
-jesus christ
-<button type="hidden" name="metaid"  value=25> delete </button>
-<button type="hidden" name="metaid"  value=26> delete </button>
-===========new=============
-5
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-year
-2015
-<button type="hidden" name="metaid"  value=27> delete </button>
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-author
-shuo
-<button type="hidden" name="metaid"  value=27> delete </button>
-<button type="hidden" name="metaid"  value=28> delete </button>
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-book
-apple book
-<button type="hidden" name="metaid"  value=27> delete </button>
-<button type="hidden" name="metaid"  value=28> delete </button>
-<button type="hidden" name="metaid"  value=29> delete </button>
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-ceo
-steve jobs
-<button type="hidden" name="metaid"  value=27> delete </button>
-<button type="hidden" name="metaid"  value=28> delete </button>
-<button type="hidden" name="metaid"  value=29> delete </button>
-<button type="hidden" name="metaid"  value=30> delete </button>
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-========delete meta
-27
-<button type="hidden" name="metaid"  value=28> delete </button>
-<button type="hidden" name="metaid"  value=29> delete </button>
-<button type="hidden" name="metaid"  value=30> delete </button>
-===========new=============
-5
-edit status existing
-edit ass exsiting
-<start content>
-apple's computer is using intel chips specifically designed for them.
-
-<end content>
-========delete meta
-30
-<button type="hidden" name="metaid"  value=28> delete </button>
-<button type="hidden" name="metaid"  value=29> delete </button>
-===========new=============
-11
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-year
-2015
-<button type="hidden" name="metaid"  value=31> delete </button>
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-book
-book of minecraft
-<button type="hidden" name="metaid"  value=31> delete </button>
-<button type="hidden" name="metaid"  value=32> delete </button>
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-========delete meta
-31
-<button type="hidden" name="metaid"  value=32> delete </button>
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-author
-mojang
-<button type="hidden" name="metaid"  value=32> delete </button>
-<button type="hidden" name="metaid"  value=33> delete </button>
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-nationality
-sweden
-<button type="hidden" name="metaid"  value=32> delete </button>
-<button type="hidden" name="metaid"  value=33> delete </button>
-<button type="hidden" name="metaid"  value=34> delete </button>
-===========new=============
-11
-edit status existing
-edit ass exsiting
-<start content>
-minecraft is a cool game.
-
-<end content>
-========delete meta
-34
-<button type="hidden" name="metaid"  value=32> delete </button>
-<button type="hidden" name="metaid"  value=33> delete </button>
+user=shuo
+admin=1
+098765
+shuo@git.com
+user=shuo
+admin=1
+098765
+shuo@git.com
+user=shuo
+admin=1
+098765
+shuo@github.com
+user=shuo
+admin=1
+user=shuo
+admin=1
+user=shuo
+admin=1
+user=shuo
+admin=1
+user=shuo
+admin=1
+user=admin
+admin=3
+create user
+user=admin
+admin=3
+user=admin
+admin=3
+user=admin
+admin=3
+user=admin
+admin=3
+user=admin
+admin=3
+create user
+user=admin
+admin=3
+user=szhang
+admin=3
+user=szhang
+admin=3
