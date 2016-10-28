@@ -11,6 +11,8 @@ from modules.pathutils import *
 import urllib
 from modules.coptic_sql import *
 from os.path import isfile, join
+from modules.dataenc import pass_dec, pass_enc
+
 
 
 
@@ -33,13 +35,13 @@ def cell(text):
     return "\n    <td>" + str(text) + "</td>"
 
 
-def perform_action(text_content, logging=False):
+def perform_action(text_content, logging=True):
     #this is used to write information into a text file to serve as a debugging tool and log
     #change logging=True to start logging
     if logging:
         f=open("hwak.txt","a")
         f.write('\n')
-        f.write(text_content)
+        f.write(text_content.encode("utf8"))
         f.close()
 
 
@@ -70,6 +72,47 @@ def print_meta(doc_id):
     table+="\n</table>"
     return table
 
+
+def push_to_git(username,password,path,account,repo,message):
+    import github3
+    files_to_upload = [path]
+    gh = github3.login(username=username, password=password)
+    repository = gh.repository(account, repo)
+    for file_info in files_to_upload:
+        with open(file_info, 'rb') as fd:
+            contents = fd.read()
+        push_status = repository.create_file(
+            path=file_info,
+            message=message.format(file_info),
+            content=contents,
+        )
+    return type(push_status)!=github3.null.NullObject
+
+
+def serialize_file(text_content,file_name):
+    f=open(file_name,'w')
+    f.write(text_content.encode("utf8"))
+    f.close()
+
+
+
+def get_git_credentials(user,admin):
+    if admin==0:
+        return
+    scriptpath = os.path.dirname(os.path.realpath(__file__)) + os.sep
+    userdir = scriptpath + "users" + os.sep
+    userfile = userdir + user + '.ini'
+    perform_action(userfile,True)
+    f=open(userfile,'r').read().split('\n')
+    user_dict={}
+    for line in f:
+        if line!='':
+            l=line.split(' = ')
+            user_dict[l[0]]=l[1]
+    git_username=user_dict['git_username']
+    git_password=pass_dec(user_dict['git_password'])
+    perform_action(git_password[0],True)
+    return git_username,git_password[0]
 
 
 def load_page(user,admin,theform):
@@ -189,8 +232,22 @@ def load_page(user,admin,theform):
             create_document(doc_name,status,assignee,file_name,text_content)
         else:
             save_changes(doc_id,text_content)
-    
 
+    git_status=False
+    if theform.getvalue('push_git'):
+        perform_action('push',True)
+        text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
+        file_name = generic_query("SELECT filename FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
+        perform_action(file_name,True)
+        serialize_file (text_content,file_name)
+        git_account='zangsir'
+        git_repo='coptic-xml-tool'
+        git_username,git_password=get_git_credentials(user,admin)
+        file_path="uploaded_commits/"
+        message="try commit random file"
+
+        git_status=push_to_git(git_username,git_password,file_name,git_account,git_repo,message)
+        perform_action(str(git_status),True)
 
 
     #editing options
@@ -198,7 +255,10 @@ def load_page(user,admin,theform):
     edit_docname = """<input type='text' name='edit_docname' value='%s'> <input type='submit' value='change'>""" %doc_name
     #filename
     edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %file_name
-    
+    #push_git = """<input type='hidden' name='push_git' value='yes'> <input type='submit' value='Push'>"""
+    push_git = """<button type="hidden" name="push_git"  value=None> Push </button>"""
+    if git_status == True:
+        push_git+="""<p style='color:red;'>pushed to remote repo successfully</p>"""
     #status
     #which one is selected?
     sel_edit=""
@@ -269,7 +329,10 @@ def load_page(user,admin,theform):
     page=page.replace("**editfilename**",edit_filename)
     page=page.replace("**editassignee**",edit_assignee)
     page=page.replace("**metadata**",metadata)
-
+    if int(admin)>0:
+        page=page.replace("**github**",push_git)
+    else:
+        page = page.replace("**github**", '')
     page=page.replace("**js**",js)
 
     return page

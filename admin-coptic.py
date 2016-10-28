@@ -36,10 +36,6 @@ def write_user_file(username,password,admin,email,realname,git_username,git_pass
     f.write('numlogins = 85\nnumused = 2869\n')
     f.write('git_username='+git_username+'\n')
     f.write('git_password='+pass_enc(git_password)+'\n')
-
-
-
-
     f.close()
 
 

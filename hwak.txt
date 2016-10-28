@@ -1,43 +1,281 @@
 
-user=shuo
-admin=1
-098765
-shuo@git.com
-user=shuo
-admin=1
-098765
-shuo@git.com
-user=shuo
-admin=1
-098765
-shuo@github.com
-user=shuo
-admin=1
-user=shuo
-admin=1
-user=shuo
-admin=1
-user=shuo
-admin=1
-user=shuo
-admin=1
-user=admin
-admin=3
-create user
-user=admin
-admin=3
-user=admin
-admin=3
-user=admin
-admin=3
-user=admin
-admin=3
-user=admin
-admin=3
-create user
-user=admin
+user=szhang
 admin=3
 user=szhang
 admin=3
 user=szhang
 admin=3
+===========new=============
+7
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+user=szhang
+admin=3
+===========new=============
+7
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+user=szhang
+admin=3
+===========new=============
+7
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+True
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+user=szhang
+admin=3
+===========new=============
+7
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+True
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+user=szhang
+admin=3
+===========new=============
+7
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+push
+tokyo_story.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+True
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+7
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<end content>
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+title
+tokyo story
+<button type="hidden" name="metaid"  value=None> delete </button>
+<button type="hidden" name="metaid"  value=None> delete </button>
+user=szhang
+admin=3
+user=admin
+admin=3
+===========new=============
+6
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+6
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+CPE Bach is one of J.S Bach's many sons, and perhaps the most famous one.
+<end content>
+push
+CPE_Bach.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/admin.ini
+user=admin
+admin=3
+user=szhang
+admin=3
+===========new=============
+6
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+6
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+CPE Bach is one of J.S Bach's many sons, and perhaps the most famous one.
+<end content>
+push
+CPE_Bach.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+True
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
