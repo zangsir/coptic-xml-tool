@@ -22,7 +22,7 @@ admin=1
 user=shuo
 admin=1
 user=admin
-admin=3
+admin=3asdfasdf
 create user
 user=admin
 admin=3
