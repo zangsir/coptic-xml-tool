@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!//anaconda/bin/python
 # -*- coding: UTF-8 -*-
 
 import cgi, cgitb 
@@ -120,6 +120,7 @@ def load_admin(user,admin,theform):
 
     if theform.getvalue('init_db'):
         perform_action('init db')
+        setup_db()
 
     page= "Content-type:text/html\r\n\r\n"
     page+="""

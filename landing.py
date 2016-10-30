@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!//anaconda/bin/python
 # -*- coding: UTF-8 -*-
 
 # Import modules for CGI handling 
@@ -100,6 +100,8 @@ def load_landing(user,admin,theform):
     docs_list=generic_query("SELECT id,name,status,assignee_username,filename FROM coptic_docs",())
 
     max_id=get_max_id()
+    if not max_id:
+        max_id=0
     
     #for each doc in the doc list, just display doc[:-1], since last col is content
 

@@ -1,13 +1,14 @@
 
-user=szhang
-admin=3
-user=szhang
-admin=3
-user=szhang
-admin=3
+===========new=============
+5
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+4
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
 ===========new=============
 7
 ['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+metaid:None
 <button type="hidden" name="metaid"  value=None> delete </button>
 ===========new=============
 7
@@ -16,266 +17,194 @@ edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.</p></TEI>
 <end content>
+commit_msg written
 ['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+========delete meta
+None
+metaid:None
 <button type="hidden" name="metaid"  value=None> delete </button>
+init db
 user=szhang
 admin=3
 ===========new=============
-7
+3
 ['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+metaid:None
 <button type="hidden" name="metaid"  value=None> delete </button>
+metaid:None
+<button type="hidden" name="metaid"  value=None> delete </button>
+===========new=============
+3
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Minecraft Mojong is acquired by Microsoft. lots of people are not happy because they will make. 
+<end content>
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+========delete meta
+None
+metaid:None
+<button type="hidden" name="metaid"  value=None> delete </button>
+metaid:None
+<button type="hidden" name="metaid"  value=None> delete </button>
+init db
+user=szhang
+admin=3
+init db
+user=szhang
+admin=3
+user=szhang
+admin=3
 user=szhang
 admin=3
 ===========new=============
-7
+0
 ['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
 ===========new=============
-7
+0
+===========new=============
+0
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+create doc existing
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+0
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+user=szhang
+admin=3
+===========new=============
+1
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+1
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+create doc existing
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+Greek_source
+amaoz
+metaid:1
+<button type="hidden" name="metaid"  value=1> delete </button>
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+corpus
+lit
+metaid:1
+<button type="hidden" name="metaid"  value=1> delete </button>
+metaid:2
+<button type="hidden" name="metaid"  value=2> delete </button>
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+========delete meta
+1
+metaid:2
+<button type="hidden" name="metaid"  value=2> delete </button>
 ===========new=============
-7
+1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
 <end content>
+commit_msg written
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+========delete meta
+2
+user=szhang
+admin=3
+===========new=============
+1
+['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+commit_msg written
 push
-tokyo_story.xml
+amazon.xml
 /Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
 zs12084
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-True
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
-user=szhang
-admin=3
-===========new=============
-7
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-True
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
-user=szhang
-admin=3
-===========new=============
-7
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-push
-tokyo_story.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-True
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-<button type="hidden" name="metaid"  value=None> delete </button>
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.soemhting</p></TEI>
-<end content>
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-title
-tokyo story
-<button type="hidden" name="metaid"  value=None> delete </button>
-<button type="hidden" name="metaid"  value=None> delete </button>
-user=szhang
-admin=3
-user=admin
-admin=3
-===========new=============
-6
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-6
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-CPE Bach is one of J.S Bach's many sons, and perhaps the most famous one.
-<end content>
-push
-CPE_Bach.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/admin.ini
-user=admin
-admin=3
-user=szhang
-admin=3
-===========new=============
-6
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-6
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-CPE Bach is one of J.S Bach's many sons, and perhaps the most famous one.
-<end content>
-push
-CPE_Bach.xml
-/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
-zs12084
-True
+lineee:<Commit [SHUO ZHANG:8a00501d069d0f713963ce63efde55f4f171f3d4]>
 ['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']

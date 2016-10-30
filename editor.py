@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!//anaconda/bin/python
 # -*- coding: UTF-8 -*-
 
 # Import modules for CGI handling 
@@ -12,6 +12,7 @@ import urllib
 from modules.coptic_sql import *
 from os.path import isfile, join
 from modules.dataenc import pass_dec, pass_enc
+import github3
 
 
 
@@ -53,6 +54,7 @@ def print_meta(doc_id):
         #each item appears in one row of the table
         row="\n <tr>"
         metaid=str(item[1])
+        perform_action('metaid:'+str(metaid))
         id=str(doc_id)
         for i in item[2:]:
             row+=cell(i)
@@ -73,21 +75,23 @@ def print_meta(doc_id):
     return table
 
 
-def push_to_git(username,password,path,account,repo,message):
-    import github3
+def push_update_to_git(username,password,path,account,repo,message):
     files_to_upload = [path]
     gh = github3.login(username=username, password=password)
     repository = gh.repository(account, repo)
     for file_info in files_to_upload:
         with open(file_info, 'rb') as fd:
             contents = fd.read()
-        push_status = repository.create_file(
-            path=file_info,
-            message=message.format(file_info),
-            content=contents,
-        )
-    return type(push_status)!=github3.null.NullObject
-
+        contents_object = repository.contents(file_info)
+        if contents_object:#this file already exists on remote repo
+            #update
+            push_status = contents_object.update(message,contents)
+            perform_action(str(push_status),True)
+            return str(push_status)
+        else:#file doesn't exist on remote repo
+            #push
+            push_status = repository.create_file(path=file_info, message=message.format(file_info),content=contents,)
+            return str(push_status['commit'])
 
 def serialize_file(text_content,file_name):
     f=open(file_name,'w')
@@ -118,6 +122,8 @@ def get_git_credentials(user,admin):
 def load_page(user,admin,theform):
     perform_action('===========new=============')
     max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
+    if not max_id:
+        max_id=0
     text_content=""
     if theform.getvalue('newdoc'):
         #when creating new document from landing page, a new id as max_id+1 is passed
@@ -234,6 +240,12 @@ def load_page(user,admin,theform):
             save_changes(doc_id,text_content)
 
     git_status=False
+
+    if theform.getvalue('commit_msg'):
+        commit_message = theform.getvalue('commit_msg')
+        perform_action('commit_msg written')
+
+
     if theform.getvalue('push_git'):
         perform_action('push',True)
         text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
@@ -244,11 +256,9 @@ def load_page(user,admin,theform):
         git_repo='coptic-xml-tool'
         git_username,git_password=get_git_credentials(user,admin)
         file_path="uploaded_commits/"
-        message="try commit random file"
-
-        git_status=push_to_git(git_username,git_password,file_name,git_account,git_repo,message)
-        perform_action(str(git_status),True)
-
+        #message="try commit random file"
+        git_status = push_update_to_git(git_username, git_password, file_name, git_account, git_repo, commit_message)
+        perform_action("lineee:"+git_status)
 
     #editing options
     #docname
@@ -256,9 +266,23 @@ def load_page(user,admin,theform):
     #filename
     edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %file_name
     #push_git = """<input type='hidden' name='push_git' value='yes'> <input type='submit' value='Push'>"""
-    push_git = """<button type="hidden" name="push_git"  value=None> Push </button>"""
-    if git_status == True:
-        push_git+="""<p style='color:red;'>pushed to remote repo successfully</p>"""
+    push_git = """<p>Please type your commit message below and commit the file to remote repository:</p>
+    
+<textarea rows="4" cols="50" name="commit_msg" form="codemir">
+commit message here
+</textarea> <br/>
+    <button type="hidden" name="push_git"  value=None> Commit </button>
+    
+
+
+    """
+
+    if git_status:
+        push_msg=git_status.replace('<','')
+        push_msg=push_msg.replace('>','')
+
+
+        push_git+="""<p style='color:red;'>""" + push_msg + ' successful' + """</p>""" 
     #status
     #which one is selected?
     sel_edit=""
