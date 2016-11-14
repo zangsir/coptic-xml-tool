@@ -3,7 +3,7 @@
 
 # Import modules for CGI handling 
 import cgi, cgitb 
-import os
+import os, shutil
 from os import listdir
 from modules.logintools import login
 from modules.configobj import ConfigObj
@@ -122,7 +122,7 @@ def get_git_credentials(user,admin):
 def load_page(user,admin,theform):
     perform_action('===========new=============')
     max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
-    if not max_id:
+    if not max_id:#this is for the initial case after init db 
         max_id=0
     text_content=""
     if theform.getvalue('newdoc'):
@@ -244,21 +244,42 @@ def load_page(user,admin,theform):
     if theform.getvalue('commit_msg'):
         commit_message = theform.getvalue('commit_msg')
         perform_action('commit_msg written')
+    
+    #get the target repo for push from user
+    if theform.getvalue('repo'):
+        git_repo=theform.getvalue('repo')
+        perform_action(git_repo,True)
+    file_path=''
+    #get from user subdirectory info
+    if theform.getvalue('subdir'):
+        file_path=theform.getvalue('subdir')+"/"
+        perform_action(file_path,True) 
 
+    if theform.getvalue('acct_push'):
+        git_account=theform.getvalue('acct_push')
+        perform_action(git_account,True)
 
     if theform.getvalue('push_git'):
         perform_action('push',True)
         text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
         file_name = generic_query("SELECT filename FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
-        perform_action(file_name,True)
-        serialize_file (text_content,file_name)
-        git_account='zangsir'
-        git_repo='coptic-xml-tool'
+        perform_action(file_path+file_name,True)
+        saved_file = file_path + file_name
+        serialize_file (text_content,saved_file)
+        #git_account='zangsir'
+        #git_repo='coptic-xml-tool'
         git_username,git_password=get_git_credentials(user,admin)
-        file_path="uploaded_commits/"
+        #file_path="uploaded_commits/"
         #message="try commit random file"
-        git_status = push_update_to_git(git_username, git_password, file_name, git_account, git_repo, commit_message)
+        git_status = push_update_to_git(git_username, git_password, saved_file, git_account, git_repo, commit_message)
         perform_action("lineee:"+git_status)
+        if file_path == "":
+            #delete a file
+            os.remove(file_name)
+        else:
+            shutil.rmtree(file_path)
+    
+
 
     #editing options
     #docname
@@ -266,23 +287,37 @@ def load_page(user,admin,theform):
     #filename
     edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %file_name
     #push_git = """<input type='hidden' name='push_git' value='yes'> <input type='submit' value='Push'>"""
-    push_git = """<p>Please type your commit message below and commit the file to remote repository:</p>
+    push_git = """
+    Account to push to
+    <input type='text' name='acct_push'><br/>
+    Repository to push to
+    <input type='text' name='repo' value=''><br/>
+    Sub-directory (if any)
+    <input type='text' name='subdir' value=''>
+
+
+    <p>Please type your commit message below and commit the file to remote repository:</p>
     
-<textarea rows="4" cols="50" name="commit_msg" form="codemir">
-commit message here
-</textarea> <br/>
-    <button type="hidden" name="push_git"  value=None> Commit </button>
-    
+    <textarea rows="4" cols="50" name="commit_msg" form="codemir">
+    commit message here
+    </textarea> <br/>
+        <button type="hidden" name="push_git"  value=None> Commit </button>
+        
 
 
     """
 
     if git_status:
+        #remove some html keyword symbols in the commit message returned by github3
         push_msg=git_status.replace('<','')
         push_msg=push_msg.replace('>','')
 
 
         push_git+="""<p style='color:red;'>""" + push_msg + ' successful' + """</p>""" 
+
+
+
+
     #status
     #which one is selected?
     sel_edit=""
@@ -292,10 +327,10 @@ commit message here
     elif status=="review":
         sel_review="selected"
 
-    edit_status="""<select name="edit_status">  
+    edit_status="""<select name="edit_status" onchange='this.form.submit()'>  
     <option value="editing" %s>editing</option>
     <option value='review' %s> review </option></select>    
-    <input type='submit' value='change'>""" %(sel_edit,sel_review)
+    """ %(sel_edit,sel_review)
     
     #assignee
     
@@ -315,7 +350,7 @@ commit message here
     perform_action(str(user_list))
 
 
-    edit_assignee="""<select name="edit_assignee">"""
+    edit_assignee="""<select name="edit_assignee" onchange='this.form.submit()'>"""
     for user in user_list:
         assignee_select=""
         user_name=user
@@ -323,7 +358,7 @@ commit message here
             assignee_select="selected"
         edit_assignee+="""<option value='""" + user_name + "' %s>" + user_name + """</option>""" 
         edit_assignee=edit_assignee%assignee_select
-    edit_assignee+="</select><input type='submit' value='change'>"
+    edit_assignee+="</select>"
 
     #meta data
     if theform.getvalue('metakey'):

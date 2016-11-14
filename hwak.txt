@@ -1,210 +1,435 @@
 
 ===========new=============
-5
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-4
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-7
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-===========new=============
-7
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-<TEI> Tokyo Story (東京物語 Tōkyō Monogatari?) is a 1953 Japanese drama film directed by Yasujirō Ozu and starring Chishū Ryū and Chieko Higashiyama. <p>It tells the story of an aging couple who travel to Tokyo to visit their grown children. The film contrasts the behavior of their children, who are too busy to pay them much attention, and their widowed daughter-in-law, who treats them with kindness.</p></TEI>
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-========delete meta
-None
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-init db
-user=szhang
-admin=3
-===========new=============
-3
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-===========new=============
-3
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Minecraft Mojong is acquired by Microsoft. lots of people are not happy because they will make. 
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-========delete meta
-None
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-metaid:None
-<button type="hidden" name="metaid"  value=None> delete </button>
-init db
-user=szhang
-admin=3
-init db
-user=szhang
-admin=3
-user=szhang
-admin=3
-user=szhang
-admin=3
-===========new=============
-0
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-0
-===========new=============
-0
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-create doc existing
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-0
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-user=szhang
-admin=3
-===========new=============
-1
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-1
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-create doc existing
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
 1
 edit docname existing
 edit filename existing
 edit status existing
 edit ass exsiting
 <start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbz
 <end content>
 commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-Greek_source
-amaoz
-metaid:1
-<button type="hidden" name="metaid"  value=1> delete </button>
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-corpus
-lit
-metaid:1
-<button type="hidden" name="metaid"  value=1> delete </button>
-metaid:2
-<button type="hidden" name="metaid"  value=2> delete </button>
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-========delete meta
-1
-metaid:2
-<button type="hidden" name="metaid"  value=2> delete </button>
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-========delete meta
-2
-user=szhang
-admin=3
-===========new=============
-1
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
-===========new=============
-1
-edit docname existing
-edit filename existing
-edit status existing
-edit ass exsiting
-<start content>
-Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
-<end content>
-commit_msg written
+coptic-xml-tool
+uploaded_commits
+zangsir
 push
-amazon.xml
+uploaded_commits/amazon-list.xml
 /Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
 zs12084
-lineee:<Commit [SHUO ZHANG:8a00501d069d0f713963ce63efde55f4f171f3d4]>
-['azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zenobia', 'zym']
+<Commit [SHUO ZHANG:6e33a1b11b8302fe736f0ddd60968f0b797d7fdd]>
+lineee:<Commit [SHUO ZHANG:6e33a1b11b8302fe736f0ddd60968f0b797d7fdd]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbz
+<end content>
+commit_msg written
+za
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbz
+<end content>
+commit_msg written
+coptic-xml-tool
+uploaded_commits
+zangsir
+push
+uploaded_commits/amazon-list.xml
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbz
+<end content>
+commit_msg written
+coptic-xml-tool
+uploaded_commits
+zangsir
+push
+uploaded_commits/amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+lineee:<Commit [SHUO ZHANG:2549b397a7045202843cee5bf7887bc53014135f]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbz
+<end content>
+commit_msg written
+coptic-xml-tool
+test_commit
+zangsir
+push
+test_commit/amazon-list.xml
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdg
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdg
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+push
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdg
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+push
+amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+<Commit [SHUO ZHANG:74a906774a637da7ef258e614adebc8de2b07d05]>
+lineee:<Commit [SHUO ZHANG:74a906774a637da7ef258e614adebc8de2b07d05]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdgasdgasdg
+<end content>
+commit_msg written
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdgasdgasdg
+<end content>
+commit_msg written
+coptic-xml-tool
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdgasdgasdg
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+push
+amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+<Commit [SHUO ZHANG:0528d3318b7be65bf546254c9a54085f8f730d03]>
+lineee:<Commit [SHUO ZHANG:0528d3318b7be65bf546254c9a54085f8f730d03]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdgasdgasdg
+<end content>
+commit_msg written
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.Amazon.zbzdgdgasdgasdg
+<end content>
+commit_msg written
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3
+===========new=============
+2
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+user=szhang
+admin=3
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+push
+amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+<Commit [SHUO ZHANG:77ce28b0be980b204596ce4e86c0f477d8663cdc]>
+lineee:<Commit [SHUO ZHANG:77ce28b0be980b204596ce4e86c0f477d8663cdc]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.
+<end content>
+commit_msg written
+coptic-xml-tool
+uploaded_commits/
+zangsir
+push
+uploaded_commits/amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+<Commit [SHUO ZHANG:a9229c37372aeeacd2106be6aaa188487b316c5c]>
+lineee:<Commit [SHUO ZHANG:a9229c37372aeeacd2106be6aaa188487b316c5c]>
+===========new=============
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.asdgasdg
+<end content>
+commit_msg written
+coptic-xml-tool
+zangsir
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+===========new=============
+1
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+Amazon's selection and catalog systems team is looking for talented and creative engineers for a newly created catalog enrichment project to develop algorithms and build systems to automatically solve a variety of Information Extraction and Data Mining problems related to the Amazon Product Catalog, one of the company's biggest assets.asdgasdg
+<end content>
+commit_msg written
+coptic-xml-tool
+uploaded_commits/
+zangsir
+push
+uploaded_commits/amazon-list.xml
+/Users/zangsir/Sites/coptic-xml-tool/users/szhang.ini
+zs12084
+<Commit [SHUO ZHANG:5310b4b40854193354ea9396d549361b8d5575f2]>
+lineee:<Commit [SHUO ZHANG:5310b4b40854193354ea9396d549361b8d5575f2]>
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3
+===========new=============
+2
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+===========new=============
+2
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+UnitedHealth Group is a company that's on the rise. We're expanding in multiple directions, across borders and, most of all, in the way we think. Here, innovation isn't about another gadget, it's about transforming the health care industry
+<end content>
+commit_msg written
+coptic-xml-tool
+test_dir/
+zangsir
+push
+test_dir/unitedHealthCare.xml
+===========new=============
+2
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+UnitedHealth Group is a company that's on the rise. We're expanding in multiple directions, across borders and, most of all, in the way we think. Here, innovation isn't about another gadget, it's about transforming the health care industry
+<end content>
+commit_msg written
+coptic-xml-tool
+test_dir/
+zangsir
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+===========new=============
+2
+edit docname existing
+edit filename existing
+edit status existing
+edit ass exsiting
+<start content>
+UnitedHealth Group is a company that's on the rise. We're expanding in multiple directions, across borders and, most of all, in the way we think. Here, innovation isn't about another gadget, it's about transforming the health care industry
+<end content>
+commit_msg written
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+user=szhang
+admin=3
+===========new=============
+1
+['amir_test', 'azeldes', 'default_user', 'example_user', 'manu', 'shuo', 'szhang', 'temp', 'yuko', 'zangsir', 'zym']
+metaid:6
+<button type="hidden" name="metaid"  value=6> delete </button>
+metaid:9
+<button type="hidden" name="metaid"  value=9> delete </button>
+user=szhang
+admin=3

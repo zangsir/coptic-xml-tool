@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eebbb8f1-081f-4b98-8e23-ac64af5447f2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploaded_commits/hwak.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploaded_commits/somethingg.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploaded_commits/somethinggg.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploaded_commits/somethingh.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coptic.db" afterPath="$PROJECT_DIR$/coptic.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-coptic.py" afterPath="$PROJECT_DIR$/admin-coptic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amazon.xml" afterPath="$PROJECT_DIR$/amazon.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor.py" afterPath="$PROJECT_DIR$/editor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor_codemir.html" afterPath="$PROJECT_DIR$/editor_codemir.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hwak.txt" afterPath="$PROJECT_DIR$/hwak.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokyo_story.xml" afterPath="$PROJECT_DIR$/tokyo_story.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing.py" afterPath="$PROJECT_DIR$/landing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tryGithub3.py" afterPath="$PROJECT_DIR$/tryGithub3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/shuo.ini" afterPath="$PROJECT_DIR$/users/shuo.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/szhang.ini" afterPath="$PROJECT_DIR$/users/szhang.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/zenobia.ini" afterPath="$PROJECT_DIR$/users/zenobia.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/zym.ini" afterPath="$PROJECT_DIR$/users/zym.ini" />
     </list>
     <ignored path="coptic-xml-tool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/admin-coptic.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="34" />
+              <caret line="38" column="13" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -50,10 +60,8 @@
         <entry file="file://$PROJECT_DIR$/landing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#117#134#0" expanded="true" />
-              </folding>
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,10 +69,10 @@
       <file leaf-file-name="editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
               <folding>
-                <element signature="e#82#99#0" expanded="true" />
+                <marker date="1477796664000" expanded="true" signature="0:3" ph="..." />
               </folding>
             </state>
           </provider>
@@ -115,8 +123,8 @@
       <file leaf-file-name="hwak.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hwak.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7803">
-              <caret line="459" column="7" selection-start-line="459" selection-start-column="7" selection-end-line="459" selection-end-column="7" />
+            <state relative-caret-position="6205">
+              <caret line="365" column="7" selection-start-line="365" selection-start-column="7" selection-end-line="365" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -455,9 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#117#134#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,7 +472,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#82#99#0" expanded="true" />
+            <marker date="1477796664000" expanded="true" signature="0:3" ph="..." />
           </folding>
         </state>
       </provider>
@@ -552,7 +558,7 @@
     <entry file="file://$PROJECT_DIR$/admin-coptic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="34" />
+          <caret line="38" column="13" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -575,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hwak.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7803">
-          <caret line="459" column="7" selection-start-line="459" selection-start-column="7" selection-end-line="459" selection-end-column="7" />
+        <state relative-caret-position="6205">
+          <caret line="365" column="7" selection-start-line="365" selection-start-column="7" selection-end-line="365" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -600,10 +606,8 @@
     <entry file="file://$PROJECT_DIR$/landing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#134#0" expanded="true" />
-          </folding>
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,10 +629,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
           <folding>
-            <element signature="e#82#99#0" expanded="true" />
+            <marker date="1477796664000" expanded="true" signature="0:3" ph="..." />
           </folding>
         </state>
       </provider>

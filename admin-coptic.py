@@ -224,7 +224,7 @@ def load_user_config(user,admin,theform):
     if theform.getvalue('new_pass'):
         new_pass=theform.getvalue('new_pass')
         perform_action(new_pass)
-        update_password(user,pass_enc(new_pass))
+        update_password(user,new_pass)
     if theform.getvalue('new_git_password'):
 
         new_git_password=theform.getvalue('new_git_password')
