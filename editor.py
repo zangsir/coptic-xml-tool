@@ -13,7 +13,8 @@ from modules.coptic_sql import *
 from os.path import isfile, join
 from modules.dataenc import pass_dec, pass_enc
 import github3
-
+from requests.auth import HTTPBasicAuth
+import requests
 
 
 
@@ -130,7 +131,7 @@ def load_page(user,admin,theform):
         doc_id=theform.getvalue('id')
         perform_action(doc_id)
         doc_name="new document"
-        file_name="new_document.xml"
+        repo_name="account/repo_name"
         assignee="default_user"
         status="editing"
         text_content=""
@@ -148,7 +149,7 @@ def load_page(user,admin,theform):
         #creating new doc case, assign some default values
         if int(doc_id)>int(max_id):
             doc_name="new document"
-            file_name="new_document.xml"
+            repo_name="account/repo_name"
             status="editing"
             assignee="default_user"
             text_content=""
@@ -158,15 +159,15 @@ def load_page(user,admin,theform):
                 docname=theform.getvalue('edit_docname')
                 if docname!='new document':
                     perform_action('edit docname new'+docname)
-                    create_document(doc_name,status,assignee,file_name,text_content)
+                    create_document(doc_name,status,assignee,repo_name,text_content)
                     update_docname(doc_id,docname)
                     doc_saved=True
 
             if theform.getvalue('edit_filename'):
                 filename=theform.getvalue('edit_filename')
-                if filename!='new_document.xml':
+                if filename!='account/repo_name':
                     perform_action('edit filename new'+filename)
-                    create_document(doc_name,status,assignee,file_name,text_content)
+                    create_document(doc_name,status,assignee,repo_name,text_content)
                     update_filename(doc_id,filename)
                     doc_saved=True
                 
@@ -176,7 +177,7 @@ def load_page(user,admin,theform):
                 newstatus=theform.getvalue('edit_status')
                 if newstatus!='editing':
                     perform_action('edit status new '+newstatus)
-                    create_document(doc_name,status,assignee,file_name,text_content)
+                    create_document(doc_name,status,assignee,repo_name,text_content)
                     update_status(doc_id,newstatus)
                     doc_saved=True
                 
@@ -184,14 +185,14 @@ def load_page(user,admin,theform):
                 #if not (theform.getvalue('edit_docname') or theform.getvalue('edit_filename')):
                 newassignee_username=theform.getvalue('edit_assignee')
                 if newassignee_username!="default_user":
-                    create_document(doc_name,status,assignee,file_name,text_content)
+                    create_document(doc_name,status,assignee,repo_name,text_content)
                     perform_action('edit ass new '+str(newassignee_username))
                     update_assignee(doc_id,newassignee_username)
                     doc_saved=True
             if doc_saved==True:        
                 text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-                file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+                repo_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 assignee=generic_query("SELECT assignee_username FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
                 
@@ -215,7 +216,7 @@ def load_page(user,admin,theform):
                 update_assignee(doc_id,newassignee_username)
             text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             doc_name=generic_query("SELECT name FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
-            file_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
+            repo_name=generic_query("SELECT filename FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             assignee=generic_query("SELECT assignee_username FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             status=generic_query("SELECT status FROM coptic_docs WHERE id=?",(doc_id,))[0][0]
             
@@ -235,7 +236,7 @@ def load_page(user,admin,theform):
         #max_id=generic_query("SELECT MAX(id) AS max_id FROM coptic_docs","")[0][0]
         if int(doc_id)>int(max_id):
             perform_action('create doc existing')
-            create_document(doc_name,status,assignee,file_name,text_content)
+            create_document(doc_name,status,assignee,repo_name,text_content)
         else:
             save_changes(doc_id,text_content)
 
@@ -245,63 +246,53 @@ def load_page(user,admin,theform):
         commit_message = theform.getvalue('commit_msg')
         perform_action('commit_msg written')
     
-    #get the target repo for push from user
-    if theform.getvalue('repo'):
-        git_repo=theform.getvalue('repo')
-        perform_action(git_repo,True)
-    file_path=''
-    #get from user subdirectory info
-    if theform.getvalue('subdir'):
-        file_path=theform.getvalue('subdir')+"/"
-        perform_action(file_path,True) 
-
-    if theform.getvalue('acct_push'):
-        git_account=theform.getvalue('acct_push')
-        perform_action(git_account,True)
 
     if theform.getvalue('push_git'):
         perform_action('push',True)
         text_content = generic_query("SELECT content FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
-        file_name = generic_query("SELECT filename FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
-        perform_action(file_path+file_name,True)
-        saved_file = file_path + file_name
+        repo_name = generic_query("SELECT filename FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
+        file_name = generic_query("SELECT name FROM coptic_docs WHERE id=?", (doc_id,))[0][0]
+        file_name = file_name.replace(" ","_") + ".xml"
+        repo_info = repo_name.split('/')
+        git_account, git_repo = repo_info[0], repo_info[1]
+        if len(repo_info)>2:
+            subdir = '/'.join(repo_info[2:]) + "/"
+        else:
+            subdir = ""
+        if not os.path.isdir(subdir):
+            os.mkdir(subdir, 0755)
+
+        #the user will indicate the subdir in the repo_name stored in the db. Therefore, a file may be associated with the target repo subdir zangsir/coptic-xml-tool/uploaded_commits, and that is fine, but we will need to make this uploaded_commits subdir first to create our file.
+        saved_file = subdir + file_name
+        perform_action(saved_file,True)
         serialize_file (text_content,saved_file)
-        #git_account='zangsir'
-        #git_repo='coptic-xml-tool'
         git_username,git_password=get_git_credentials(user,admin)
-        #file_path="uploaded_commits/"
-        #message="try commit random file"
         git_status = push_update_to_git(git_username, git_password, saved_file, git_account, git_repo, commit_message)
         perform_action("lineee:"+git_status)
-        if file_path == "":
+        if subdir == "":
             #delete a file
             os.remove(file_name)
         else:
-            shutil.rmtree(file_path)
+            shutil.rmtree(subdir)
     
+    if theform.getvalue('nlp_service'):
+        api_call="https://corpling.uis.georgetown.edu/coptic-nlp/api?data=%s&lb=line&format=pipes" %text_content
+        resp = requests.get(api_call, auth=HTTPBasicAuth('coptic_client', 'kz7hh2'))
+        text_content=resp.text
 
 
     #editing options
     #docname
     edit_docname = """<input type='text' name='edit_docname' value='%s'> <input type='submit' value='change'>""" %doc_name
     #filename
-    edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %file_name
+    edit_filename = """<input type='text' name='edit_filename' value='%s'> <input type='submit' value='change'>""" %repo_name
     #push_git = """<input type='hidden' name='push_git' value='yes'> <input type='submit' value='Push'>"""
     push_git = """
-    Account to push to
-    <input type='text' name='acct_push'><br/>
-    Repository to push to
-    <input type='text' name='repo' value=''><br/>
-    Sub-directory (if any)
-    <input type='text' name='subdir' value=''>
-
-
-    <p>Please type your commit message below and commit the file to remote repository:</p>
     
-    <textarea rows="4" cols="50" name="commit_msg" form="codemir">
-    commit message here
-    </textarea> <br/>
-        <button type="hidden" name="push_git"  value=None> Commit </button>
+    
+    
+    <input type="text" name="commit_msg" value = "commit message here">
+    <button type="hidden" name="push_git"  value=None> Commit </button>
         
 
 
@@ -374,13 +365,20 @@ def load_page(user,admin,theform):
         delete_meta(metaid)
     metadata=print_meta(doc_id)
 
+    nlp_service = """
+
+    <button type="hidden" name="nlp_service"  value=None> NLP </button>
+
+
+    """
+
 
 
     page= "Content-type:text/html\r\n\r\n"
     page+= urllib.urlopen("editor_codemir.html").read()
     page=page.replace("**content**",text_content)
     #page=page.replace("**docname**",doc_name)
-    #page=page.replace("**filename**",file_name)
+    #page=page.replace("**filename**",repo_name)
     #page=page.replace("**assigned**",assignee)
     #page=page.replace("**status**",status)
     page=page.replace("**editdocname**",edit_docname)
@@ -388,6 +386,7 @@ def load_page(user,admin,theform):
     page=page.replace("**editfilename**",edit_filename)
     page=page.replace("**editassignee**",edit_assignee)
     page=page.replace("**metadata**",metadata)
+    page=page.replace("**NLP**",nlp_service)
     if int(admin)>0:
         page=page.replace("**github**",push_git)
     else:

@@ -18,7 +18,7 @@ td, th {
     padding: 8px;
 }
 
-body{padding:10pt;}
+body{padding:4pt;}
 
 </style>
 
@@ -48,18 +48,19 @@ body{padding:10pt;}
 
 
 <form name="hiddenForm" id="codemir" method="post" action="editor.py">
-<br><h2>Editor | <a href="landing.py">back to document list</a> </h2> 
+<h2>Editor | <a href="landing.py">back to document list</a> </h2> 
 
 <table style="background:#eee;padding:5pt;">
 <tr><td>Document Name: </td><td>**editdocname**</td></tr>
-<tr><td>File Name: </td><td>**editfilename**</td></tr>
+<tr><td>Git Repo: </td><td>**editfilename**</td></tr>
 <tr><td>Assigned to:</td><td>**editassignee**</td></tr>
 <tr><td>Status:</td><td>**editstatus**</td></tr>
 </table>
 
 
 <textarea id="code" name="code">**content**</textarea>
-<input type="submit" value="Save Text" />
+<input type="submit" value="Save Text" /> **NLP**  **github**
+
 <input type="hidden" id="zangsir" name="id" value=""/>
 
 <h3>meta data</h3>
@@ -82,9 +83,9 @@ function openPopup(url) {
 
 <INPUT TYPE="HIDDEN" NAME="metakey">
 <INPUT type="hidden" name="metavalue">
-<hr>
-<h3>Push to GitHub</h3>
-    **github**
+
+
+
 
 </form>
 

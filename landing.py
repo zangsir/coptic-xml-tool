@@ -105,7 +105,7 @@ def load_landing(user,admin,theform):
     
     #for each doc in the doc list, just display doc[:-1], since last col is content
 
-    table="""<table><tr><th>id</th><th>doc name</th><th>status</th><th>assigned</th><th>filename</th><th>editing</th><th>deletion</th></tr>"""
+    table="""<table><tr><th>id</th><th>doc name</th><th>status</th><th>assigned</th><th>GitRepo</th><th>editing</th><th>deletion</th></tr>"""
 
     for doc in docs_list:
         row="<tr>"
